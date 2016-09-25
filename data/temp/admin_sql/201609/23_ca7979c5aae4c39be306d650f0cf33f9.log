@@ -1,0 +1,974 @@
+::1-----set names utf8-----11:05:12
+::1-----select * from duoduo_webset where type=1 or type=0 -----11:05:12
+::1-----select * from duoduo_webset where type=2 -----11:05:12
+::1-----select val from duoduo_webset where var="authorize" limit 1-----11:05:12
+::1-----set names utf8-----11:05:21
+::1-----select * from duoduo_webset where type=1 or type=0 -----11:05:21
+::1-----select * from duoduo_webset where type=2 -----11:05:21
+::1-----select val from duoduo_webset where var="authorize" limit 1-----11:05:21
+::1-----update duoduo_webset set `val`='749fRZivy536J0cofj1GUfX31+XQlCOi+AihyTIVQa/v0owAqU/pWxEE7xsDY5m6Ls6Xagd5i2Z4TijgqVw8L/6hmALkLHc6kxhngyQ8F7iqTHBTfgJ4la7CiR/SByuuG/fZ2Q6F2b92pyvJ47XdElDYYcFzt9y4s+b9/Vykeh1wciWuB+zXlvihTo5Q73xbs0GXJEw7DnyvaLzqqcXldwQtjssjqnccWIWoPFMUWlT0iy74ejhCrA' where var="authorize" limit 1-----11:05:22
+::1-----select * from duoduo_webset where type=1 or type=0 -----11:05:22
+::1-----select * from duoduo_webset where type=2 -----11:05:22
+::1-----set names utf8-----11:05:25
+::1-----select * from duoduo_webset where type=1 or type=0 -----11:05:25
+::1-----select * from duoduo_webset where type=2 -----11:05:25
+::1-----select val from duoduo_webset where var="authorize" limit 1-----11:05:25
+::1-----set names utf8-----11:05:28
+::1-----select * from duoduo_webset where type=1 or type=0 -----11:05:28
+::1-----select * from duoduo_webset where type=2 -----11:05:28
+::1-----select val from duoduo_webset where var="authorize" limit 1-----11:05:28
+::1-----update duoduo_webset set `val`='5ef1EEKNG2fGhNSkv4iC3a80oN6SSRVxURjrIGqDf2kVlcv9tzFOJczehh3HQovdAaCI/3nOPm881f36GJ8l5stKfdJSIXIbgbQkRSjuorqxm4q2/u5CUvPBsy37PHeT2hedyXDPIHEOrKmRCeumi5L6wkHq8uW+gfe0lzuEa/JcbtSVqV5Ocx4PF6J0Ktxqfdp8xa/P2plJFiki20sCgskbjjo9oNZLtbbGNCKTio+mGNQlHqUUHQ' where var="authorize" limit 1-----11:05:28
+::1-----select * from duoduo_webset where type=1 or type=0 -----11:05:28
+::1-----select * from duoduo_webset where type=2 -----11:05:28
+::1-----set names utf8-----11:05:32
+::1-----select * from duoduo_webset where type=1 or type=0 -----11:05:32
+::1-----select * from duoduo_webset where type=2 -----11:05:32
+::1-----select val from duoduo_webset where var="authorize" limit 1-----11:05:32
+127.0.0.1-----set names utf8-----11:05:47
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:05:47
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:05:47
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:05:47
+127.0.0.1-----set names utf8-----11:05:48
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:05:48
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:05:48
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:05:48
+127.0.0.1-----set names utf8-----11:06:05
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:06:05
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:06:05
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:06:05
+127.0.0.1-----select * from duoduo_duoduo2010 where adminname="admin" and adminpass="e3b19408fe3141bd9649061e10eaddd6" limit 1-----11:06:05
+127.0.0.1-----update duoduo_duoduo2010 set `lastlogintime`='1474350924',`lastloginip`='127.0.0.1',`loginnum`=`loginnum`+'1',`logintime`='1474599964',`loginip`='127.0.0.1' where id=1 limit 1-----11:06:05
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:06:05
+127.0.0.1-----set names utf8-----11:06:07
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:06:07
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:06:07
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:06:07
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:06:07
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:06:07
+127.0.0.1-----set names utf8-----11:06:09
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:06:09
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:06:09
+127.0.0.1-----set names utf8-----11:06:09
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:06:09
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:06:09
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:06:09
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:06:09
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:06:09
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:06:09
+127.0.0.1-----set names utf8-----11:06:09
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:06:09
+127.0.0.1-----select * from duoduo_duoduo2010 where id="1" limit 1-----11:06:09
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:06:09
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:06:09
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:06:09
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:06:09
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:06:09
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:06:09
+127.0.0.1-----set names utf8-----11:06:13
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:06:13
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:06:13
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:06:13
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:06:13
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:06:13
+127.0.0.1-----select title from duoduo_menu where `mod`="tradelist" and act="set" limit 1-----11:06:13
+127.0.0.1-----set names utf8-----11:06:34
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:06:34
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:06:34
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:06:34
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:06:34
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:06:34
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----11:06:34
+127.0.0.1-----select title from duoduo_menu where `mod`="webset" and act="set" limit 1-----11:06:34
+127.0.0.1-----set names utf8-----11:06:41
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:06:41
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:06:41
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:06:41
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:06:41
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:06:41
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----11:06:42
+127.0.0.1-----select title from duoduo_menu where `mod`="template" and act="set" limit 1-----11:06:42
+127.0.0.1-----set names utf8-----11:06:46
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:06:46
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:06:46
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:06:46
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:06:46
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:06:46
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----11:06:46
+127.0.0.1-----select title from duoduo_menu where `mod`="template" and act="admin_set" limit 1-----11:06:46
+127.0.0.1-----update duoduo_tpl set `title`='pc_default' where title="default" limit 1-----11:06:46
+127.0.0.1-----select data from duoduo_tpl where title="pc_default" limit 1-----11:06:46
+127.0.0.1-----set names utf8-----11:07:06
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:07:06
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:07:06
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:07:06
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:07:06
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:07:06
+127.0.0.1-----set names utf8-----11:07:46
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:07:46
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:07:46
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:07:46
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:07:46
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:07:46
+127.0.0.1-----set names utf8-----11:08:26
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:08:26
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:08:26
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:08:26
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:08:26
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:08:26
+127.0.0.1-----set names utf8-----11:08:37
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:08:37
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:08:37
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:08:37
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:08:37
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:08:37
+127.0.0.1-----select data from duoduo_tpl where title="pc_default" limit 1-----11:08:37
+127.0.0.1-----select id from duoduo_tpl where title="pc_default" limit 1-----11:08:37
+127.0.0.1-----update duoduo_tpl set `data`='eJyNkk1ugzAQhe/iSllFlDZAk0ioh+iiGyQ04MEMGNvlp0mIcveOSXdpJSQv7OfPT29mfBXaKiuOYnLagsye/TFwRomt8AIZlVOnGKAOFA4MwHwJFFUMFGDaCSgfnWbgNQ5Zc0C8xPEqWrx82l7yTTa9hSizKd7FyYIo/KAZ+SbyTwbbj7zfH8RtKxoCW9bIAdiiA+2dyUg8B652752VKfQjlRo3UI7pN+FpQzJNXthnBPsA16jdQla6mJnxjjmnwn6dr88312AM0v/eagJu00iO4dLalnCVeRQxL7nU5tH7Lz4++CILQ2W7LnziG/pFYAYf6KmqkiRcGs79vUu4j4qw+J3JcJ/Jzs8IGjjn/gPkZupYjFnD/oT8C/gkbj+a4Lzq',`title`='pc_default' where id="1" limit 1-----11:08:37
+127.0.0.1-----set names utf8-----11:08:40
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:08:40
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:08:40
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:08:40
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:08:40
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:08:40
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----11:08:40
+127.0.0.1-----select title from duoduo_menu where `mod`="template" and act="admin_set" limit 1-----11:08:40
+127.0.0.1-----update duoduo_tpl set `title`='pc_default' where title="default" limit 1-----11:08:40
+127.0.0.1-----select data from duoduo_tpl where title="pc_default" limit 1-----11:08:40
+127.0.0.1-----set names utf8-----11:16:42
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:16:42
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:16:42
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:16:42
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:16:42
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:16:42
+127.0.0.1-----set names utf8-----11:17:08
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:17:08
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:17:08
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:17:08
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:17:08
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:17:08
+127.0.0.1-----set names utf8-----11:17:13
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:17:13
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:17:13
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:17:13
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:17:13
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:17:13
+127.0.0.1-----select data from duoduo_tpl where title="pc_default" limit 1-----11:17:13
+127.0.0.1-----select id from duoduo_tpl where title="pc_default" limit 1-----11:17:13
+127.0.0.1-----update duoduo_tpl set `data`='eJyNkk1ugzAQhe/iSllFlDZAk0ioh+iiGyQ04MEMGNvlp0mIcveOSXdpJSQv7OfPT29mfBXaKiuOYnLagsye/TFwRomt8AIZlVOnGKAOFA4MwHwJFFUMFGDaCSgfnWbgNQ5Zc0C8xPEqWrx82l7yTTa9hSizKd7FyYIo/KAZ+SbyTwbbj7zfH8RtKxoCW9bIAdiiA+2dyUg8B652752VKfQjlRo3UI7pN+FpQzJNXthnBPsA16jdQla6mJnxjjmnwn6dr88312AM0v/eagJu00iO4dLalnCVeRQxL7nU5tH7Lz4++CILQ2W7LnziG/pFYAYf6KmqkiRcGs79vUu4j4qw+J3JcJ/Jzs8IGjjn/gPkZupYjFnD/oT8C/gkbj+a4Lzq',`title`='pc_default' where id="1" limit 1-----11:17:13
+127.0.0.1-----set names utf8-----11:17:16
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:17:16
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:17:16
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:17:16
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:17:16
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:17:16
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----11:17:16
+127.0.0.1-----select title from duoduo_menu where `mod`="template" and act="admin_set" limit 1-----11:17:16
+127.0.0.1-----update duoduo_tpl set `title`='pc_default' where title="default" limit 1-----11:17:16
+127.0.0.1-----select data from duoduo_tpl where title="pc_default" limit 1-----11:17:16
+127.0.0.1-----set names utf8-----11:21:32
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:21:32
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:21:32
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:21:32
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:21:32
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:21:32
+127.0.0.1-----set names utf8-----11:21:46
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:21:46
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:21:46
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:21:46
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:21:46
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:21:46
+127.0.0.1-----set names utf8-----11:21:50
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:21:50
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:21:50
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:21:50
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:21:50
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:21:50
+127.0.0.1-----select data from duoduo_tpl where title="pc_default" limit 1-----11:21:50
+127.0.0.1-----select id from duoduo_tpl where title="pc_default" limit 1-----11:21:50
+127.0.0.1-----update duoduo_tpl set `data`='eJyNkk1ugzAQhe/iSllFlDZAk0ioh+iiGyQ04MEMGNvlp0mIcveOSXdpJSQv7OfPT29mfBXaKiuOYnLagsye/TFwRomt8AIZlVOnGKAOFA4MwHwJFFUMFGDaCSgfnWbgNQ5Zc0C8xPEqWrx82l7yTTa9hSizKd7FyYIo/KAZ+SbyTwbbj7zfH8RtKxoCW9bIAdiiA+2dyUg8B652752VKfQjlRo3UI7pN+FpQzJNXthnBPsA16jdQla6mJnxjjmnwn6dr88312AM0v/eagJu00iO4dLalnCVeRQxL7nU5tH7Lz4++CILQ2W7LnziG/pFYAYf6KmqkiRcGs79vUu4j4qw+J3JcJ/Jzs8IGjjn/gPkZupYjFnD/oT8C/gkbj+a4Lzq',`title`='pc_default' where id="1" limit 1-----11:21:50
+127.0.0.1-----set names utf8-----11:21:53
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:21:53
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:21:53
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:21:53
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:21:53
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:21:53
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----11:21:53
+127.0.0.1-----select title from duoduo_menu where `mod`="template" and act="admin_set" limit 1-----11:21:53
+127.0.0.1-----update duoduo_tpl set `title`='pc_default' where title="default" limit 1-----11:21:53
+127.0.0.1-----select data from duoduo_tpl where title="pc_default" limit 1-----11:21:53
+127.0.0.1-----set names utf8-----11:53:26
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:53:26
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:53:26
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:53:26
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:53:26
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:53:26
+127.0.0.1-----set names utf8-----11:53:37
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:53:37
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:53:37
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:53:37
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:53:37
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:53:37
+127.0.0.1-----set names utf8-----11:53:41
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:53:41
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:53:41
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:53:41
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:53:41
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:53:41
+127.0.0.1-----select data from duoduo_tpl where title="pc_default" limit 1-----11:53:41
+127.0.0.1-----select id from duoduo_tpl where title="pc_default" limit 1-----11:53:41
+127.0.0.1-----update duoduo_tpl set `data`='eJyNkk1ugzAQhe/iSllFlDZAk0ioh+iiGyQ04MEMGNvlp0mIcveOSXdpJSQv7OfPT29mfBXaKiuOYnLagsye/TFwRomt8AIZlVOnGKAOFA4MwHwJFFUMFGDaCSgfnWbgNQ5Zc0C8xPEqWrx82l7yTTa9hSizKd7FyYIo/KAZ+SbyTwbbj7zfH8RtKxoCW9bIAdiiA+2dyUg8B652752VKfQjlRo3UI7pN+FpQzJNXthnBPsA16jdQla6mJnxjjmnwn6dr88312AM0v/eagJu00iO4dLalnCVeRQxL7nU5tH7Lz4++CILQ2W7LnziG/pFYAYf6KmqkiRcGs79vUu4j4qw+J3JcJ/Jzs8IGjjn/gPkZupYjFnD/oT8C/gkbj+a4Lzq',`title`='pc_default' where id="1" limit 1-----11:53:41
+127.0.0.1-----set names utf8-----11:53:46
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:53:46
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:53:46
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:53:46
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:53:46
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:53:46
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----11:53:46
+127.0.0.1-----select title from duoduo_menu where `mod`="template" and act="admin_set" limit 1-----11:53:46
+127.0.0.1-----update duoduo_tpl set `title`='pc_default' where title="default" limit 1-----11:53:46
+127.0.0.1-----select data from duoduo_tpl where title="pc_default" limit 1-----11:53:46
+127.0.0.1-----set names utf8-----11:54:03
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:54:03
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:54:03
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:54:04
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:54:04
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:54:04
+127.0.0.1-----set names utf8-----11:54:18
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:54:18
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:54:18
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:54:18
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:54:18
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:54:18
+127.0.0.1-----set names utf8-----11:54:28
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:54:28
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:54:28
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:54:28
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:54:28
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:54:28
+127.0.0.1-----set names utf8-----11:54:54
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:54:54
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:54:54
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:54:54
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:54:54
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:54:54
+127.0.0.1-----set names utf8-----11:55:43
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:55:43
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:55:43
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:55:43
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:55:43
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:55:43
+127.0.0.1-----set names utf8-----11:56:07
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:56:07
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:56:07
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:56:07
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:56:07
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:56:07
+127.0.0.1-----set names utf8-----11:56:12
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:56:12
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:56:12
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:56:12
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:56:12
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:56:12
+127.0.0.1-----select data from duoduo_tpl where title="pc_default" limit 1-----11:56:12
+127.0.0.1-----select id from duoduo_tpl where title="pc_default" limit 1-----11:56:12
+127.0.0.1-----update duoduo_tpl set `data`='eJyNkk1ugzAQhe/iSllFlDZAk0ioh+iiGyQ04MEMGNvlp0mIcveOSXdpJSQv7OfPT29mfBXaKiuOYnLagsye/TFwRomt8AIZlVOnGKAOFA4MwHwJFFUMFGDaCSgfnWbgNQ5Zc0C8xPEqWrx82l7yTTa9hSizKd7FyYIo/KAZ+SbyTwbbj7zfH8RtKxoCW9bIAdiiA+2dyUg8B652752VKfQjlRo3UI7pN+FpQzJNXthnBPsA16jdQla6mJnxjjmnwn6dr88312AM0v/eagJu00iO4dLalnCVeRQxL7nU5tH7Lz4++CILQ2W7LnziG/pFYAYf6KmqkiRcGs79vUu4j4qw+J3JcJ/Jzs8IGjjn/gPkZupYjFnD/oT8C/gkbj+a4Lzq',`title`='pc_default' where id="1" limit 1-----11:56:12
+127.0.0.1-----set names utf8-----11:56:15
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:56:15
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:56:15
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:56:15
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:56:15
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:56:15
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----11:56:15
+127.0.0.1-----select title from duoduo_menu where `mod`="template" and act="admin_set" limit 1-----11:56:15
+127.0.0.1-----update duoduo_tpl set `title`='pc_default' where title="default" limit 1-----11:56:15
+127.0.0.1-----select data from duoduo_tpl where title="pc_default" limit 1-----11:56:15
+127.0.0.1-----set names utf8-----11:56:21
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----11:56:21
+127.0.0.1-----select * from duoduo_webset where type=2 -----11:56:21
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----11:56:21
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----11:56:21
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----11:56:21
+127.0.0.1-----set names utf8-----15:07:48
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----15:07:48
+127.0.0.1-----select * from duoduo_webset where type=2 -----15:07:48
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----15:07:48
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----15:07:49
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----15:07:49
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----15:07:49
+127.0.0.1-----select * from duoduo_webset where type=2 -----15:07:49
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid=0 order by sort =0 ASC , sort ASC  -----15:07:49
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid<>0 order by sort =0 ASC , sort ASC  -----15:07:49
+127.0.0.1-----select * from duoduo_api where open="1" order by sort asc -----15:07:49
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----15:07:49
+127.0.0.1-----select * from duoduo_webset where type=2 -----15:07:49
+127.0.0.1-----select code,title,type from duoduo_service where 1=1 order by sort asc -----15:07:50
+127.0.0.1-----select `title`,`replace` from duoduo_noword where 1=1 -----15:07:50
+127.0.0.1-----select `title_arr`,`replace` from duoduo_noword where title_arr is not null and title_arr<>"" -----15:07:50
+127.0.0.1-----select id,title,tag from duoduo_type order by sort asc-----15:07:50
+127.0.0.1-----select id,title,web,web_open,email,email_open,sms,sms_open from duoduo_msgset where 1=1 -----15:07:50
+127.0.0.1-----select * from duoduo_ad where 1=1 -----15:07:50
+127.0.0.1-----delete from duoduo_buy_log where day<"20160824"-----15:07:51
+127.0.0.1-----select * from duoduo_bankuai where 1 order by sort=0 ASC,tuijian desc,sort asc -----15:07:51
+127.0.0.1-----select * from duoduo_cron where 1=1 -----15:07:51
+127.0.0.1-----select * from duoduo_domain where 1=1 -----15:07:51
+127.0.0.1-----select * from duoduo_taopid where 1=1 -----15:07:51
+127.0.0.1-----set names utf8-----19:04:38
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:04:38
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:04:38
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:04:38
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:04:39
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:04:39
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:04:39
+127.0.0.1-----select title from duoduo_menu where `mod`="webset" and act="set" limit 1-----19:04:40
+127.0.0.1-----set names utf8-----19:05:25
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:05:25
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:05:25
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:05:25
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:05:25
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:05:25
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:05:25
+127.0.0.1-----select count(1) as num from duoduo_type where `title` like '%%' and tag='article'-----19:05:25
+127.0.0.1-----select title from duoduo_menu where `mod`="article_type" and act="list" limit 1-----19:05:25
+127.0.0.1-----select * from duoduo_type where pid="0" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----19:05:25
+127.0.0.1-----select count(1) as num from duoduo_article where cid="10009"-----19:05:25
+127.0.0.1-----select * from duoduo_type where pid="10009" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----19:05:25
+127.0.0.1-----select count(1) as num from duoduo_article where cid="10010"-----19:05:25
+127.0.0.1-----select * from duoduo_type where pid="10010" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----19:05:25
+127.0.0.1-----select count(1) as num from duoduo_article where cid="1"-----19:05:25
+127.0.0.1-----select * from duoduo_type where pid="1" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----19:05:25
+127.0.0.1-----select count(1) as num from duoduo_article where cid="3"-----19:05:25
+127.0.0.1-----select * from duoduo_type where pid="3" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----19:05:25
+127.0.0.1-----select count(1) as num from duoduo_article where cid="4"-----19:05:25
+127.0.0.1-----select * from duoduo_type where pid="4" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----19:05:25
+127.0.0.1-----select count(1) as num from duoduo_article where cid="5"-----19:05:25
+127.0.0.1-----select * from duoduo_type where pid="5" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----19:05:25
+127.0.0.1-----select count(1) as num from duoduo_article where cid="2"-----19:05:25
+127.0.0.1-----select * from duoduo_type where pid="2" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----19:05:25
+127.0.0.1-----select count(1) as num from duoduo_article where cid="26"-----19:05:25
+127.0.0.1-----select * from duoduo_type where pid="26" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----19:05:25
+127.0.0.1-----select count(1) as num from duoduo_article where cid="28"-----19:05:25
+127.0.0.1-----select * from duoduo_type where pid="28" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----19:05:25
+127.0.0.1-----set names utf8-----19:05:40
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:05:40
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:05:40
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:05:40
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:05:40
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:05:40
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:05:40
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:05:40
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:05:40
+127.0.0.1-----show fields from `duoduo_nav`-----19:05:40
+127.0.0.1-----show fields from `duoduo_nav`-----19:05:40
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%' -----19:05:40
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%'  and pid = 0 -----19:05:40
+127.0.0.1-----select * from duoduo_nav where `title` like "%%"  and pid = 0  order by  hide asc ,sort =0 ASC , sort ASC ,id desc limit 0,20 -----19:05:40
+127.0.0.1-----select * from duoduo_nav where pid = "1" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:05:40
+127.0.0.1-----select * from duoduo_nav where pid = "15" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:05:40
+127.0.0.1-----select * from duoduo_nav where pid = "5" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:05:40
+127.0.0.1-----select * from duoduo_nav where pid = "6" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:05:40
+127.0.0.1-----select * from duoduo_nav where pid = "16" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:05:40
+127.0.0.1-----select * from duoduo_nav where pid = "17" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:05:40
+127.0.0.1-----select * from duoduo_nav where pid = "18" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:05:40
+127.0.0.1-----select * from duoduo_nav where pid = "10" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:05:40
+127.0.0.1-----select * from duoduo_nav where pid = "2" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:05:40
+127.0.0.1-----select * from duoduo_nav where pid = "3" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:05:40
+127.0.0.1-----select * from duoduo_nav where pid = "4" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:05:40
+127.0.0.1-----select * from duoduo_nav where pid = "14" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:05:40
+127.0.0.1-----select * from duoduo_nav where pid = "8" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:05:40
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="list" limit 1-----19:05:40
+127.0.0.1-----set names utf8-----19:06:01
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:06:01
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:06:01
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:06:01
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:06:01
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:06:01
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:06:01
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:06:01
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:06:01
+127.0.0.1-----select * from duoduo_nav where id="1" limit 1-----19:06:01
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="addedi" limit 1-----19:06:01
+127.0.0.1-----select count(1) as num from duoduo_nav where pid="1"-----19:06:01
+127.0.0.1-----select id,title from duoduo_nav where pid=0 -----19:06:01
+127.0.0.1-----select code,title from duoduo_bankuai where  1 order by sort desc,id desc -----19:06:01
+127.0.0.1-----set names utf8-----19:06:24
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:06:24
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:06:24
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:06:24
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:06:24
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:06:24
+127.0.0.1-----insert into duoduo_adminlog set `mod`='nav',`admin_name`='admin',`addtime`='1474628783',`ip`='127.0.0.1',`do`='update'-----19:06:25
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:06:25
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:06:25
+127.0.0.1-----update duoduo_nav set `sort`='1',`alt`='',`pid`='0',`tip`='0',`plugin`='1',`type`='0',`hide`='0',`target`='0',`tag`='index',`code`='',`act`='index',`mod`='index',`bankuai_name`='',`mod_name`='index',`diaoyong`='1',`url`='',`lianjie`='0',`title`='首页' where id="1" limit 1-----19:06:25
+127.0.0.1-----update duoduo_nav set `sort`='0' where sort="1"-----19:06:25
+127.0.0.1-----update duoduo_nav set `sort`='1' where id="1" limit 1-----19:06:25
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid=0 order by sort =0 ASC , sort ASC  -----19:06:25
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid<>0 order by sort =0 ASC , sort ASC  -----19:06:25
+127.0.0.1-----set names utf8-----19:06:28
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:06:28
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:06:28
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:06:28
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:06:28
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:06:28
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:06:28
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:06:28
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:06:28
+127.0.0.1-----show fields from `duoduo_nav`-----19:06:28
+127.0.0.1-----show fields from `duoduo_nav`-----19:06:28
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%' -----19:06:28
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%'  and pid = 0 -----19:06:28
+127.0.0.1-----select * from duoduo_nav where `title` like "%%"  and pid = 0  order by  hide asc ,sort =0 ASC , sort ASC ,id desc limit 0,20 -----19:06:28
+127.0.0.1-----select * from duoduo_nav where pid = "1" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:06:28
+127.0.0.1-----select * from duoduo_nav where pid = "15" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:06:28
+127.0.0.1-----select * from duoduo_nav where pid = "5" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:06:28
+127.0.0.1-----select * from duoduo_nav where pid = "6" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:06:28
+127.0.0.1-----select * from duoduo_nav where pid = "16" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:06:28
+127.0.0.1-----select * from duoduo_nav where pid = "17" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:06:28
+127.0.0.1-----select * from duoduo_nav where pid = "18" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:06:28
+127.0.0.1-----select * from duoduo_nav where pid = "10" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:06:28
+127.0.0.1-----select * from duoduo_nav where pid = "2" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:06:28
+127.0.0.1-----select * from duoduo_nav where pid = "3" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:06:28
+127.0.0.1-----select * from duoduo_nav where pid = "4" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:06:28
+127.0.0.1-----select * from duoduo_nav where pid = "14" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:06:28
+127.0.0.1-----select * from duoduo_nav where pid = "8" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:06:28
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="list" limit 1-----19:06:28
+127.0.0.1-----set names utf8-----19:06:59
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:06:59
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:06:59
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:06:59
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:06:59
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:06:59
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:06:59
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:06:59
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:06:59
+127.0.0.1-----select * from duoduo_nav where id="1" limit 1-----19:06:59
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="addedi" limit 1-----19:06:59
+127.0.0.1-----select count(1) as num from duoduo_nav where pid="1"-----19:06:59
+127.0.0.1-----select id,title from duoduo_nav where pid=0 -----19:06:59
+127.0.0.1-----select code,title from duoduo_bankuai where  1 order by sort desc,id desc -----19:06:59
+127.0.0.1-----set names utf8-----19:15:57
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:15:57
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:15:57
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:15:57
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:15:57
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:15:57
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:15:57
+127.0.0.1-----select title from duoduo_menu where `mod`="template" and act="set" limit 1-----19:15:58
+127.0.0.1-----set names utf8-----19:15:59
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:15:59
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:15:59
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:15:59
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:15:59
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:15:59
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:15:59
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:15:59
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:15:59
+127.0.0.1-----show fields from `duoduo_nav`-----19:15:59
+127.0.0.1-----show fields from `duoduo_nav`-----19:15:59
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%' -----19:15:59
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%'  and pid = 0 -----19:15:59
+127.0.0.1-----select * from duoduo_nav where `title` like "%%"  and pid = 0  order by  hide asc ,sort =0 ASC , sort ASC ,id desc limit 0,20 -----19:15:59
+127.0.0.1-----select * from duoduo_nav where pid = "1" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:15:59
+127.0.0.1-----select * from duoduo_nav where pid = "15" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:15:59
+127.0.0.1-----select * from duoduo_nav where pid = "5" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:15:59
+127.0.0.1-----select * from duoduo_nav where pid = "6" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:15:59
+127.0.0.1-----select * from duoduo_nav where pid = "16" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:15:59
+127.0.0.1-----select * from duoduo_nav where pid = "17" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:15:59
+127.0.0.1-----select * from duoduo_nav where pid = "18" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:15:59
+127.0.0.1-----select * from duoduo_nav where pid = "10" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:15:59
+127.0.0.1-----select * from duoduo_nav where pid = "2" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:15:59
+127.0.0.1-----select * from duoduo_nav where pid = "3" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:15:59
+127.0.0.1-----select * from duoduo_nav where pid = "4" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:15:59
+127.0.0.1-----select * from duoduo_nav where pid = "14" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:15:59
+127.0.0.1-----select * from duoduo_nav where pid = "8" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:15:59
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="list" limit 1-----19:15:59
+127.0.0.1-----set names utf8-----19:16:09
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:16:09
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:16:09
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:16:09
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:16:09
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:16:09
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:16:09
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:16:09
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:16:09
+127.0.0.1-----select * from duoduo_nav where id="15" limit 1-----19:16:09
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="addedi" limit 1-----19:16:09
+127.0.0.1-----select count(1) as num from duoduo_nav where pid="15"-----19:16:09
+127.0.0.1-----select id,title from duoduo_nav where pid=0 -----19:16:09
+127.0.0.1-----select code,title from duoduo_bankuai where  1 order by sort desc,id desc -----19:16:09
+127.0.0.1-----set names utf8-----19:20:48
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:20:48
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:20:48
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:20:48
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:20:48
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:20:48
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:20:48
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:20:48
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:20:48
+127.0.0.1-----show fields from `duoduo_nav`-----19:20:48
+127.0.0.1-----show fields from `duoduo_nav`-----19:20:48
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%' -----19:20:48
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%'  and pid = 0 -----19:20:48
+127.0.0.1-----select * from duoduo_nav where `title` like "%%"  and pid = 0  order by  hide asc ,sort =0 ASC , sort ASC ,id desc limit 0,20 -----19:20:48
+127.0.0.1-----select * from duoduo_nav where pid = "1" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:20:49
+127.0.0.1-----select * from duoduo_nav where pid = "15" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:20:49
+127.0.0.1-----select * from duoduo_nav where pid = "5" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:20:49
+127.0.0.1-----select * from duoduo_nav where pid = "6" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:20:49
+127.0.0.1-----select * from duoduo_nav where pid = "16" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:20:49
+127.0.0.1-----select * from duoduo_nav where pid = "17" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:20:49
+127.0.0.1-----select * from duoduo_nav where pid = "18" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:20:49
+127.0.0.1-----select * from duoduo_nav where pid = "10" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:20:49
+127.0.0.1-----select * from duoduo_nav where pid = "2" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:20:49
+127.0.0.1-----select * from duoduo_nav where pid = "3" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:20:49
+127.0.0.1-----select * from duoduo_nav where pid = "4" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:20:49
+127.0.0.1-----select * from duoduo_nav where pid = "14" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:20:49
+127.0.0.1-----select * from duoduo_nav where pid = "8" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:20:49
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="list" limit 1-----19:20:49
+127.0.0.1-----set names utf8-----19:20:58
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:20:58
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:20:58
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:20:58
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:20:58
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:20:58
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:20:58
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:20:58
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:20:58
+127.0.0.1-----select * from duoduo_nav where id="1" limit 1-----19:20:58
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="addedi" limit 1-----19:20:58
+127.0.0.1-----select count(1) as num from duoduo_nav where pid="1"-----19:20:58
+127.0.0.1-----select id,title from duoduo_nav where pid=0 -----19:20:58
+127.0.0.1-----select code,title from duoduo_bankuai where  1 order by sort desc,id desc -----19:20:58
+127.0.0.1-----set names utf8-----19:21:13
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:21:13
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:21:13
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:21:13
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:21:13
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:21:13
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:21:13
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:21:13
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:21:13
+127.0.0.1-----show fields from `duoduo_nav`-----19:21:13
+127.0.0.1-----show fields from `duoduo_nav`-----19:21:13
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%' -----19:21:13
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%'  and pid = 0 -----19:21:13
+127.0.0.1-----select * from duoduo_nav where `title` like "%%"  and pid = 0  order by  hide asc ,sort =0 ASC , sort ASC ,id desc limit 0,20 -----19:21:13
+127.0.0.1-----select * from duoduo_nav where pid = "1" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:13
+127.0.0.1-----select * from duoduo_nav where pid = "15" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:13
+127.0.0.1-----select * from duoduo_nav where pid = "5" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:13
+127.0.0.1-----select * from duoduo_nav where pid = "6" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:14
+127.0.0.1-----select * from duoduo_nav where pid = "16" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:14
+127.0.0.1-----select * from duoduo_nav where pid = "17" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:14
+127.0.0.1-----select * from duoduo_nav where pid = "18" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:14
+127.0.0.1-----select * from duoduo_nav where pid = "10" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:14
+127.0.0.1-----select * from duoduo_nav where pid = "2" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:14
+127.0.0.1-----select * from duoduo_nav where pid = "3" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:14
+127.0.0.1-----select * from duoduo_nav where pid = "4" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:14
+127.0.0.1-----select * from duoduo_nav where pid = "14" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:14
+127.0.0.1-----select * from duoduo_nav where pid = "8" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:14
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="list" limit 1-----19:21:14
+127.0.0.1-----set names utf8-----19:21:20
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:21:20
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:21:20
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:21:20
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:21:20
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:21:20
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:21:20
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:21:20
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:21:20
+127.0.0.1-----select * from duoduo_nav where id="15" limit 1-----19:21:20
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="addedi" limit 1-----19:21:20
+127.0.0.1-----select count(1) as num from duoduo_nav where pid="15"-----19:21:20
+127.0.0.1-----select id,title from duoduo_nav where pid=0 -----19:21:20
+127.0.0.1-----select code,title from duoduo_bankuai where  1 order by sort desc,id desc -----19:21:20
+127.0.0.1-----set names utf8-----19:21:35
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:21:35
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:21:35
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:21:35
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:21:35
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:21:35
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:21:35
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:21:35
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:21:35
+127.0.0.1-----select * from duoduo_nav where id="1" limit 1-----19:21:35
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="addedi" limit 1-----19:21:35
+127.0.0.1-----select count(1) as num from duoduo_nav where pid="1"-----19:21:35
+127.0.0.1-----select id,title from duoduo_nav where pid=0 -----19:21:35
+127.0.0.1-----select code,title from duoduo_bankuai where  1 order by sort desc,id desc -----19:21:35
+127.0.0.1-----set names utf8-----19:21:47
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:21:47
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:21:47
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:21:47
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:21:48
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:21:48
+127.0.0.1-----insert into duoduo_adminlog set `mod`='nav',`admin_name`='admin',`addtime`='1474629706',`ip`='127.0.0.1',`do`='update'-----19:21:48
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:21:48
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:21:48
+127.0.0.1-----update duoduo_nav set `sort`='1',`alt`='',`pid`='0',`tip`='0',`plugin`='1',`type`='0',`hide`='0',`target`='0',`tag`='index',`code`='',`act`='index',`mod`='index',`bankuai_name`='',`mod_name`='index',`diaoyong`='1',`url`='',`lianjie`='0',`title`='首页' where id="1" limit 1-----19:21:48
+127.0.0.1-----update duoduo_nav set `sort`='0' where sort="1"-----19:21:48
+127.0.0.1-----update duoduo_nav set `sort`='1' where id="1" limit 1-----19:21:48
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid=0 order by sort =0 ASC , sort ASC  -----19:21:48
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid<>0 order by sort =0 ASC , sort ASC  -----19:21:48
+127.0.0.1-----set names utf8-----19:21:50
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:21:50
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:21:50
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:21:50
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:21:50
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:21:50
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:21:50
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:21:50
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:21:50
+127.0.0.1-----show fields from `duoduo_nav`-----19:21:50
+127.0.0.1-----show fields from `duoduo_nav`-----19:21:50
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%' -----19:21:50
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%'  and pid = 0 -----19:21:50
+127.0.0.1-----select * from duoduo_nav where `title` like "%%"  and pid = 0  order by  hide asc ,sort =0 ASC , sort ASC ,id desc limit 0,20 -----19:21:50
+127.0.0.1-----select * from duoduo_nav where pid = "1" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:50
+127.0.0.1-----select * from duoduo_nav where pid = "15" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:50
+127.0.0.1-----select * from duoduo_nav where pid = "5" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:50
+127.0.0.1-----select * from duoduo_nav where pid = "6" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:50
+127.0.0.1-----select * from duoduo_nav where pid = "16" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:50
+127.0.0.1-----select * from duoduo_nav where pid = "17" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:50
+127.0.0.1-----select * from duoduo_nav where pid = "18" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:50
+127.0.0.1-----select * from duoduo_nav where pid = "10" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:50
+127.0.0.1-----select * from duoduo_nav where pid = "2" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:50
+127.0.0.1-----select * from duoduo_nav where pid = "3" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:50
+127.0.0.1-----select * from duoduo_nav where pid = "4" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:50
+127.0.0.1-----select * from duoduo_nav where pid = "14" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:50
+127.0.0.1-----select * from duoduo_nav where pid = "8" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:21:50
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="list" limit 1-----19:21:50
+127.0.0.1-----set names utf8-----19:22:13
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:22:13
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:22:13
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:22:13
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:22:13
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:22:13
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:22:13
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:22:13
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid=0 order by sort =0 ASC , sort ASC  -----19:22:13
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid<>0 order by sort =0 ASC , sort ASC  -----19:22:13
+127.0.0.1-----select * from duoduo_api where open="1" order by sort asc -----19:22:13
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:22:13
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:22:13
+127.0.0.1-----select code,title,type from duoduo_service where 1=1 order by sort asc -----19:22:13
+127.0.0.1-----select `title`,`replace` from duoduo_noword where 1=1 -----19:22:13
+127.0.0.1-----select `title_arr`,`replace` from duoduo_noword where title_arr is not null and title_arr<>"" -----19:22:13
+127.0.0.1-----select id,title,tag from duoduo_type order by sort asc-----19:22:13
+127.0.0.1-----select id,title,web,web_open,email,email_open,sms,sms_open from duoduo_msgset where 1=1 -----19:22:13
+127.0.0.1-----select * from duoduo_ad where 1=1 -----19:22:13
+127.0.0.1-----delete from duoduo_buy_log where day<"20160824"-----19:22:13
+127.0.0.1-----select * from duoduo_bankuai where 1 order by sort=0 ASC,tuijian desc,sort asc -----19:22:13
+127.0.0.1-----select * from duoduo_cron where 1=1 -----19:22:13
+127.0.0.1-----select * from duoduo_domain where 1=1 -----19:22:14
+127.0.0.1-----select * from duoduo_taopid where 1=1 -----19:22:14
+127.0.0.1-----set names utf8-----19:23:52
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:23:52
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:23:52
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:23:52
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:23:52
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:23:52
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:23:52
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:23:52
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:23:52
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="addedi" limit 1-----19:23:52
+127.0.0.1-----select count(1) as num from duoduo_nav where pid=""-----19:23:52
+127.0.0.1-----select code,title from duoduo_bankuai where  1 order by sort desc,id desc -----19:23:52
+127.0.0.1-----set names utf8-----19:24:26
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:24:26
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:24:26
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:24:27
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:24:27
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:24:27
+127.0.0.1-----insert into duoduo_adminlog set `mod`='nav',`admin_name`='admin',`addtime`='1474629865',`ip`='127.0.0.1',`do`='insert'-----19:24:27
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:24:27
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:24:27
+127.0.0.1-----insert into duoduo_nav set `title`='首页',`lianjie`='0',`url`='',`diaoyong`='1',`mod_name`='index',`bankuai_name`='',`mod`='index',`act`='index',`code`='',`tag`='index',`target`='0',`hide`='0',`type`='0',`plugin`='0',`tip`='0',`pid`='0',`alt`='',`sort`='2',`addtime`='1474629865'-----19:24:27
+127.0.0.1-----update duoduo_nav set `sort`='0' where sort="2"-----19:24:27
+127.0.0.1-----update duoduo_nav set `sort`='2' where id="19" limit 1-----19:24:27
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid=0 order by sort =0 ASC , sort ASC  -----19:24:27
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid<>0 order by sort =0 ASC , sort ASC  -----19:24:27
+127.0.0.1-----set names utf8-----19:24:30
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:24:30
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:24:30
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:24:30
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:24:30
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:24:30
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:24:30
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:24:30
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:24:30
+127.0.0.1-----show fields from `duoduo_nav`-----19:24:30
+127.0.0.1-----show fields from `duoduo_nav`-----19:24:30
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%' -----19:24:30
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%'  and pid = 0 -----19:24:30
+127.0.0.1-----select * from duoduo_nav where `title` like "%%"  and pid = 0  order by  hide asc ,sort =0 ASC , sort ASC ,id desc limit 0,20 -----19:24:30
+127.0.0.1-----select * from duoduo_nav where pid = "1" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:24:30
+127.0.0.1-----select * from duoduo_nav where pid = "19" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:24:30
+127.0.0.1-----select * from duoduo_nav where pid = "15" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:24:30
+127.0.0.1-----select * from duoduo_nav where pid = "5" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:24:30
+127.0.0.1-----select * from duoduo_nav where pid = "6" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:24:30
+127.0.0.1-----select * from duoduo_nav where pid = "16" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:24:30
+127.0.0.1-----select * from duoduo_nav where pid = "17" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:24:30
+127.0.0.1-----select * from duoduo_nav where pid = "18" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:24:30
+127.0.0.1-----select * from duoduo_nav where pid = "2" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:24:30
+127.0.0.1-----select * from duoduo_nav where pid = "3" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:24:30
+127.0.0.1-----select * from duoduo_nav where pid = "4" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:24:30
+127.0.0.1-----select * from duoduo_nav where pid = "14" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:24:30
+127.0.0.1-----select * from duoduo_nav where pid = "10" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:24:30
+127.0.0.1-----select * from duoduo_nav where pid = "8" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:24:30
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="list" limit 1-----19:24:30
+127.0.0.1-----set names utf8-----19:25:46
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:25:46
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:25:46
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:25:46
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:25:46
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:25:47
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:25:47
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:25:47
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:25:47
+127.0.0.1-----select * from duoduo_nav where id="1" limit 1-----19:25:47
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="addedi" limit 1-----19:25:47
+127.0.0.1-----select count(1) as num from duoduo_nav where pid="1"-----19:25:47
+127.0.0.1-----select id,title from duoduo_nav where pid=0 -----19:25:47
+127.0.0.1-----select code,title from duoduo_bankuai where  1 order by sort desc,id desc -----19:25:47
+127.0.0.1-----set names utf8-----19:27:07
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:27:07
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:27:07
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:27:07
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:27:07
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:27:07
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:27:07
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:27:07
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:27:07
+127.0.0.1-----select * from duoduo_nav where id="1" limit 1-----19:27:07
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="addedi" limit 1-----19:27:07
+127.0.0.1-----select count(1) as num from duoduo_nav where pid="1"-----19:27:07
+127.0.0.1-----select id,title from duoduo_nav where pid=0 -----19:27:07
+127.0.0.1-----select code,title from duoduo_bankuai where  1 order by sort desc,id desc -----19:27:07
+127.0.0.1-----set names utf8-----19:27:15
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:27:15
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:27:15
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:27:15
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:27:15
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:27:15
+127.0.0.1-----insert into duoduo_adminlog set `mod`='nav',`admin_name`='admin',`addtime`='1474630034',`ip`='127.0.0.1',`do`='update'-----19:27:15
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:27:15
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:27:15
+127.0.0.1-----update duoduo_nav set `sort`='1',`alt`='',`pid`='0',`tip`='0',`plugin`='1',`type`='0',`hide`='1',`target`='0',`tag`='index',`code`='',`act`='index',`mod`='index',`bankuai_name`='',`mod_name`='index',`diaoyong`='1',`url`='',`lianjie`='0',`title`='首页' where id="1" limit 1-----19:27:15
+127.0.0.1-----update duoduo_nav set `sort`='0' where sort="1"-----19:27:15
+127.0.0.1-----update duoduo_nav set `sort`='1' where id="1" limit 1-----19:27:15
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid=0 order by sort =0 ASC , sort ASC  -----19:27:15
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid<>0 order by sort =0 ASC , sort ASC  -----19:27:15
+127.0.0.1-----set names utf8-----19:27:17
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:27:18
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:27:18
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:27:18
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:27:18
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:27:18
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:27:18
+127.0.0.1-----select id,title from duoduo_nav where 1=1 -----19:27:18
+127.0.0.1-----select id,tag from duoduo_nav where 1=1 -----19:27:18
+127.0.0.1-----show fields from `duoduo_nav`-----19:27:18
+127.0.0.1-----show fields from `duoduo_nav`-----19:27:18
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%' -----19:27:18
+127.0.0.1-----select count(1) as num from duoduo_nav where `title` like '%%'  and pid = 0 -----19:27:18
+127.0.0.1-----select * from duoduo_nav where `title` like "%%"  and pid = 0  order by  hide asc ,sort =0 ASC , sort ASC ,id desc limit 0,20 -----19:27:18
+127.0.0.1-----select * from duoduo_nav where pid = "19" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:27:18
+127.0.0.1-----select * from duoduo_nav where pid = "15" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:27:18
+127.0.0.1-----select * from duoduo_nav where pid = "5" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:27:18
+127.0.0.1-----select * from duoduo_nav where pid = "6" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:27:18
+127.0.0.1-----select * from duoduo_nav where pid = "16" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:27:18
+127.0.0.1-----select * from duoduo_nav where pid = "17" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:27:18
+127.0.0.1-----select * from duoduo_nav where pid = "18" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:27:18
+127.0.0.1-----select * from duoduo_nav where pid = "1" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:27:18
+127.0.0.1-----select * from duoduo_nav where pid = "2" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:27:18
+127.0.0.1-----select * from duoduo_nav where pid = "3" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:27:18
+127.0.0.1-----select * from duoduo_nav where pid = "4" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:27:18
+127.0.0.1-----select * from duoduo_nav where pid = "14" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:27:18
+127.0.0.1-----select * from duoduo_nav where pid = "10" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:27:18
+127.0.0.1-----select * from duoduo_nav where pid = "8" order by hide asc ,sort =0 ASC , sort ASC,id desc -----19:27:18
+127.0.0.1-----select title from duoduo_menu where `mod`="nav" and act="list" limit 1-----19:27:18
+127.0.0.1-----set names utf8-----19:31:05
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:31:05
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:31:05
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:31:05
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:31:05
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:31:05
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:31:05
+127.0.0.1-----show fields from `duoduo_role`-----19:31:05
+127.0.0.1-----show fields from `duoduo_role`-----19:31:05
+127.0.0.1-----select count(1) as num from duoduo_role where `title` like '%%' -----19:31:05
+127.0.0.1-----select * from duoduo_role where `title` like "%%"  order by  id desc limit 0,20 -----19:31:05
+127.0.0.1-----select title from duoduo_menu where `mod`="role" and act="list" limit 1-----19:31:05
+127.0.0.1-----set names utf8-----19:31:20
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:31:20
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:31:20
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:31:20
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:31:20
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:31:20
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:31:20
+127.0.0.1-----select id,title from duoduo_role where 1=1 -----19:31:20
+127.0.0.1-----show fields from `duoduo_duoduo2010`-----19:31:20
+127.0.0.1-----show fields from `duoduo_duoduo2010`-----19:31:20
+127.0.0.1-----select count(1) as num from duoduo_duoduo2010 where `adminname` like '%%' -----19:31:21
+127.0.0.1-----select * from duoduo_duoduo2010 where `adminname` like "%%"  order by  id desc limit 0,20 -----19:31:21
+127.0.0.1-----select title from duoduo_menu where `mod`="duoduo2010" and act="list" limit 1-----19:31:21
+127.0.0.1-----set names utf8-----19:31:32
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:31:32
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:31:32
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:31:32
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:31:32
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:31:32
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:31:32
+127.0.0.1-----select id,title from duoduo_role where 1=1 -----19:31:32
+127.0.0.1-----select title from duoduo_menu where `mod`="duoduo2010" and act="addedi" limit 1-----19:31:32
+127.0.0.1-----set names utf8-----19:34:46
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:34:46
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:34:46
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:34:46
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:34:46
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:34:46
+127.0.0.1-----insert into duoduo_adminlog set `mod`='duoduo2010',`admin_name`='admin',`addtime`='1474630485',`ip`='127.0.0.1',`do`='insert'-----19:34:46
+127.0.0.1-----select id,title from duoduo_role where 1=1 -----19:34:46
+127.0.0.1-----select id from duoduo_duoduo2010 where adminname="admin21" limit 1-----19:34:46
+127.0.0.1-----insert into duoduo_duoduo2010 set `adminname`='admin21',`adminpass`='2009daa8a969007b69edeba1dd883b2b',`role`='2',`addtime`='1474630485'-----19:34:46
+127.0.0.1-----set names utf8-----19:34:49
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:34:49
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:34:49
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:34:49
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:34:49
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:34:49
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:34:49
+127.0.0.1-----select id,title from duoduo_role where 1=1 -----19:34:49
+127.0.0.1-----show fields from `duoduo_duoduo2010`-----19:34:49
+127.0.0.1-----show fields from `duoduo_duoduo2010`-----19:34:49
+127.0.0.1-----select count(1) as num from duoduo_duoduo2010 where `adminname` like '%%' -----19:34:49
+127.0.0.1-----select * from duoduo_duoduo2010 where `adminname` like "%%"  order by  id desc limit 0,20 -----19:34:49
+127.0.0.1-----select title from duoduo_menu where `mod`="duoduo2010" and act="list" limit 1-----19:34:49
+127.0.0.1-----set names utf8-----19:34:59
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:34:59
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:34:59
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:34:59
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:34:59
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:34:59
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:34:59
+127.0.0.1-----select id,title from duoduo_menu where `mod`="" and `act`="" -----19:34:59
+127.0.0.1-----select count(1) as num from duoduo_menu where `title` like '%%'-----19:34:59
+127.0.0.1-----select * from duoduo_menu where `title` like "%%" order by id desc limit 0,20 -----19:34:59
+127.0.0.1-----select title from duoduo_menu where `mod`="menu" and act="list" limit 1-----19:34:59
+127.0.0.1-----set names utf8-----19:35:25
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:35:25
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:35:25
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:35:25
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:35:26
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:35:26
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:35:26
+127.0.0.1-----select id,title from duoduo_menu where `mod`="" and `act`="" -----19:35:26
+127.0.0.1-----select id,title from duoduo_role where 1=1 -----19:35:26
+127.0.0.1-----select id,`mod` from duoduo_menu where `mod`<>"" group by `mod` -----19:35:26
+127.0.0.1-----select node,`title` from duoduo_menu where `parent_id`=0 order by `listorder` desc -----19:35:26
+127.0.0.1-----select * from duoduo_menu where id="391" limit 1-----19:35:26
+127.0.0.1-----select * from duoduo_menu_access where menu_id=391 -----19:35:26
+127.0.0.1-----select title from duoduo_menu where `mod`="menu" and act="addedi" limit 1-----19:35:26
+127.0.0.1-----set names utf8-----19:36:25
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:36:25
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:36:25
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:36:25
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:36:25
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:36:25
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:36:25
+127.0.0.1-----show fields from `duoduo_role`-----19:36:25
+127.0.0.1-----show fields from `duoduo_role`-----19:36:25
+127.0.0.1-----select count(1) as num from duoduo_role where `title` like '%%' -----19:36:25
+127.0.0.1-----select * from duoduo_role where `title` like "%%"  order by  id desc limit 0,20 -----19:36:25
+127.0.0.1-----select title from duoduo_menu where `mod`="role" and act="list" limit 1-----19:36:25
+127.0.0.1-----set names utf8-----19:36:35
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:36:35
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:36:35
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:36:35
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:36:35
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:36:35
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:36:35
+127.0.0.1-----select id,title,`parent_id`,node,`mod`,`act`,listorder from duoduo_menu where 1="1" order by listorder desc,`mod` desc -----19:36:35
+127.0.0.1-----select * from duoduo_role where id="3" limit 1-----19:36:35
+127.0.0.1-----select menu_id,id from duoduo_menu_access where role_id="3" -----19:36:35
+127.0.0.1-----select title from duoduo_menu where `mod`="role" and act="addedi" limit 1-----19:36:35
+127.0.0.1-----set names utf8-----19:39:29
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:39:29
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:39:29
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:39:29
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:39:29
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:39:29
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:39:29
+127.0.0.1-----select id,title from duoduo_menu where `mod`="" and `act`="" -----19:39:29
+127.0.0.1-----select count(1) as num from duoduo_menu where `title` like '%%'-----19:39:29
+127.0.0.1-----select * from duoduo_menu where `title` like "%%" order by id desc limit 0,20 -----19:39:29
+127.0.0.1-----select title from duoduo_menu where `mod`="menu" and act="list" limit 1-----19:39:29
+127.0.0.1-----set names utf8-----19:39:33
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:39:33
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:39:33
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:39:33
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:39:33
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:39:33
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:39:33
+127.0.0.1-----show fields from `duoduo_role`-----19:39:33
+127.0.0.1-----show fields from `duoduo_role`-----19:39:33
+127.0.0.1-----select count(1) as num from duoduo_role where `title` like '%%' -----19:39:33
+127.0.0.1-----select * from duoduo_role where `title` like "%%"  order by  id desc limit 0,20 -----19:39:33
+127.0.0.1-----select title from duoduo_menu where `mod`="role" and act="list" limit 1-----19:39:33
+127.0.0.1-----set names utf8-----19:39:38
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:39:38
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:39:38
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:39:38
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:39:38
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:39:38
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:39:38
+127.0.0.1-----select id,title,`parent_id`,node,`mod`,`act`,listorder from duoduo_menu where 1="1" order by listorder desc,`mod` desc -----19:39:38
+127.0.0.1-----select * from duoduo_role where id="1" limit 1-----19:39:38
+127.0.0.1-----select menu_id,id from duoduo_menu_access where role_id="1" -----19:39:38
+127.0.0.1-----select title from duoduo_menu where `mod`="role" and act="addedi" limit 1-----19:39:38
+127.0.0.1-----set names utf8-----19:39:49
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:39:49
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:39:49
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:39:49
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:39:49
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:39:49
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:39:49
+127.0.0.1-----select id,title from duoduo_role where 1=1 -----19:39:49
+127.0.0.1-----show fields from `duoduo_duoduo2010`-----19:39:49
+127.0.0.1-----show fields from `duoduo_duoduo2010`-----19:39:49
+127.0.0.1-----select count(1) as num from duoduo_duoduo2010 where `adminname` like '%%' -----19:39:49
+127.0.0.1-----select * from duoduo_duoduo2010 where `adminname` like "%%"  order by  id desc limit 0,20 -----19:39:49
+127.0.0.1-----select title from duoduo_menu where `mod`="duoduo2010" and act="list" limit 1-----19:39:49
+127.0.0.1-----set names utf8-----19:39:51
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:39:51
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:39:51
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:39:51
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:39:51
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:39:51
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:39:51
+127.0.0.1-----select id,title from duoduo_menu where `mod`="" and `act`="" -----19:39:51
+127.0.0.1-----select count(1) as num from duoduo_menu where `title` like '%%'-----19:39:51
+127.0.0.1-----select * from duoduo_menu where `title` like "%%" order by id desc limit 0,20 -----19:39:51
+127.0.0.1-----select title from duoduo_menu where `mod`="menu" and act="list" limit 1-----19:39:51
+127.0.0.1-----set names utf8-----19:39:54
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:39:54
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:39:54
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:39:54
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:39:54
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:39:54
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:39:54
+127.0.0.1-----show fields from `duoduo_role`-----19:39:54
+127.0.0.1-----show fields from `duoduo_role`-----19:39:54
+127.0.0.1-----select count(1) as num from duoduo_role where `title` like '%%' -----19:39:54
+127.0.0.1-----select * from duoduo_role where `title` like "%%"  order by  id desc limit 0,20 -----19:39:54
+127.0.0.1-----select title from duoduo_menu where `mod`="role" and act="list" limit 1-----19:39:54
+127.0.0.1-----set names utf8-----19:40:01
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----19:40:01
+127.0.0.1-----select * from duoduo_webset where type=2 -----19:40:01
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----19:40:01
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----19:40:01
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----19:40:01
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----19:40:01
+127.0.0.1-----select id,title,`parent_id`,node,`mod`,`act`,listorder from duoduo_menu where 1="1" order by listorder desc,`mod` desc -----19:40:01
+127.0.0.1-----select * from duoduo_role where id="2" limit 1-----19:40:01
+127.0.0.1-----select menu_id,id from duoduo_menu_access where role_id="2" -----19:40:01
+127.0.0.1-----select title from duoduo_menu where `mod`="role" and act="addedi" limit 1-----19:40:01

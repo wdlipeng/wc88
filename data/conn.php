@@ -1,0 +1,9 @@
+<?php
+$dbserver='localhost';
+$dbuser='root';
+$dbpass='yangfan';
+$dbname='duoduo';
+$BIAOTOU='duoduo_';
+define('BIAOTOU',$BIAOTOU);
+define('DDKEY','q5n@+bk!pa');
+?>

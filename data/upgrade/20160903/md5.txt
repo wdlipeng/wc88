@@ -1,0 +1,5 @@
+aaa0c4308f028f0302f9d71fbd49cb52 */admin/template/upgrade/step/step_8.tpl.php
+e0b6292fb48beb9372eb7315a37f4733 */comm/comm.func.php
+4a71cddbfc6b6f5339ee961dffd5a47f */comm/mod.func.php
+504ae1790aa7af54dfd1a21354e3b508 */mod/goods/public.act.php
+0718855f12ac26c48fb0272ebf286849 */update.php

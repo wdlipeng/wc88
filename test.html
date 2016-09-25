@@ -1,0 +1,49 @@
+<html
+xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta
+http-equiv="Content-Type"
+content="text/html;
+charset=utf-8" />
+
+<title>绑定函数</title>
+
+<script
+src="jquery-1.3.2.js"></script>
+
+<script>
+
+$(document).ready(function(){
+
+var
+temp=
+$("#test").is(":hidden");//是否隐藏
+
+var
+temp1=
+$("#test").is(":visible");//是否可见
+
+
+alert(temp) ;
+
+
+alert(temp1) ;
+
+});
+</script>
+
+</head>
+
+<body>
+
+<p
+onclick='test()'>刷新测试</p>
+
+<div
+id="test" style="display:none"></div>
+
+</body>
+
+</html>

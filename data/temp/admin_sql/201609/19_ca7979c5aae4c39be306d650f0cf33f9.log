@@ -1,0 +1,600 @@
+::1-----set names utf8-----09:20:32
+::1-----select * from duoduo_webset where type=1 or type=0 -----09:20:32
+::1-----select * from duoduo_webset where type=2 -----09:20:32
+::1-----select val from duoduo_webset where var="authorize" limit 1-----09:20:32
+::1-----set names utf8-----09:20:34
+::1-----select * from duoduo_webset where type=1 or type=0 -----09:20:34
+::1-----select * from duoduo_webset where type=2 -----09:20:34
+::1-----select val from duoduo_webset where var="authorize" limit 1-----09:20:34
+::1-----set names utf8-----09:20:36
+::1-----select * from duoduo_webset where type=1 or type=0 -----09:20:36
+::1-----select * from duoduo_webset where type=2 -----09:20:36
+::1-----select val from duoduo_webset where var="authorize" limit 1-----09:20:36
+::1-----set names utf8-----09:20:46
+::1-----select * from duoduo_webset where type=1 or type=0 -----09:20:46
+::1-----select * from duoduo_webset where type=2 -----09:20:46
+::1-----select val from duoduo_webset where var="authorize" limit 1-----09:20:46
+::1-----select * from duoduo_duoduo2010 where adminname="admin" and adminpass="e3b19408fe3141bd9649061e10eaddd6" limit 1-----09:20:46
+::1-----update duoduo_duoduo2010 set `lastlogintime`='1474189737',`lastloginip`='127.0.0.1',`loginnum`=`loginnum`+'1',`logintime`='1474248045',`loginip`='::1' where id=1 limit 1-----09:20:46
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:20:46
+::1-----set names utf8-----09:20:47
+::1-----select * from duoduo_webset where type=1 or type=0 -----09:20:47
+::1-----select * from duoduo_webset where type=2 -----09:20:47
+::1-----select val from duoduo_webset where var="authorize" limit 1-----09:20:47
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:20:47
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:20:47
+::1-----set names utf8-----09:20:49
+::1-----select * from duoduo_webset where type=1 or type=0 -----09:20:49
+::1-----select * from duoduo_webset where type=2 -----09:20:49
+::1-----select val from duoduo_webset where var="authorize" limit 1-----09:20:49
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:20:49
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:20:49
+::1-----set names utf8-----09:20:49
+::1-----set names utf8-----09:20:49
+::1-----select * from duoduo_webset where type=1 or type=0 -----09:20:49
+::1-----select * from duoduo_webset where type=1 or type=0 -----09:20:49
+::1-----select * from duoduo_webset where type=2 -----09:20:49
+::1-----select val from duoduo_webset where var="authorize" limit 1-----09:20:49
+::1-----select * from duoduo_webset where type=2 -----09:20:49
+::1-----select val from duoduo_webset where var="authorize" limit 1-----09:20:49
+::1-----select * from duoduo_duoduo2010 where id="1" limit 1-----09:20:49
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:20:49
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:20:49
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:20:49
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:20:49
+::1-----set names utf8-----09:20:52
+::1-----select * from duoduo_webset where type=1 or type=0 -----09:20:52
+::1-----select * from duoduo_webset where type=2 -----09:20:52
+::1-----select val from duoduo_webset where var="authorize" limit 1-----09:20:52
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:20:52
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:20:52
+::1-----select title from duoduo_menu where `mod`="tradelist" and act="set" limit 1-----09:20:53
+::1-----set names utf8-----09:20:54
+::1-----select * from duoduo_webset where type=1 or type=0 -----09:20:54
+::1-----select * from duoduo_webset where type=2 -----09:20:54
+::1-----select val from duoduo_webset where var="authorize" limit 1-----09:20:54
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:20:54
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:20:54
+::1-----select * from duoduo_webset where type=1 or type=0 -----09:20:54
+::1-----select * from duoduo_webset where type=2 -----09:20:54
+::1-----select * from duoduo_nav where hide="0" and pid=0 order by sort =0 ASC , sort ASC  -----09:20:54
+::1-----select * from duoduo_nav where hide="0" and pid<>0 order by sort =0 ASC , sort ASC  -----09:20:54
+::1-----select * from duoduo_api where open="1" order by sort asc -----09:20:54
+::1-----select * from duoduo_webset where type=1 or type=0 -----09:20:54
+::1-----select * from duoduo_webset where type=2 -----09:20:54
+::1-----select code,title,type from duoduo_service where 1=1 order by sort asc -----09:20:54
+::1-----select `title`,`replace` from duoduo_noword where 1=1 -----09:20:54
+::1-----select `title_arr`,`replace` from duoduo_noword where title_arr is not null and title_arr<>"" -----09:20:54
+::1-----select id,title,tag from duoduo_type order by sort asc-----09:20:54
+::1-----select id,title,web,web_open,email,email_open,sms,sms_open from duoduo_msgset where 1=1 -----09:20:54
+::1-----select * from duoduo_ad where 1=1 -----09:20:54
+::1-----delete from duoduo_buy_log where day<"20160820"-----09:20:54
+::1-----select * from duoduo_bankuai where 1 order by sort=0 ASC,tuijian desc,sort asc -----09:20:54
+::1-----select * from duoduo_cron where 1=1 -----09:20:54
+::1-----select * from duoduo_domain where 1=1 -----09:20:54
+::1-----select * from duoduo_taopid where 1=1 -----09:20:54
+::1-----set names utf8-----09:20:56
+::1-----select * from duoduo_webset where type=1 or type=0 -----09:20:56
+::1-----select * from duoduo_webset where type=2 -----09:20:56
+::1-----select val from duoduo_webset where var="authorize" limit 1-----09:20:56
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----09:20:56
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----09:20:56
+::1-----select id from duoduo_mall where 1 limit 1-----09:20:57
+::1-----select * from duoduo_domain where `mod`="goods" and close=0 limit 1-----09:20:57
+::1-----ALTER TABLE `duoduo_goods` CHANGE `tg_url` `tg_url` TEXT CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;-----09:20:57
+::1-----ALTER TABLE  `duoduo_goods` CHANGE  `nick`  `nick` VARCHAR( 20 ) CHARACTER SET utf8 COLLATE utf8_general_ci NULL-----09:20:57
+::1-----ALTER TABLE `duoduo_mall` ADD `is_search` tinyint(1) DEFAULT '0'-----09:20:57
+::1-----select * from duoduo_adminlog where 1=1 order by id desc limit 5 -----09:20:57
+::1-----select count(1) as num from duoduo_tradelist where checked=1-----09:20:57
+::1-----select count(1) as num from duoduo_msg where see=0 and uid=0-----09:20:57
+::1-----select count(1) as num from duoduo_duihuan where status=0-----09:20:57
+::1-----select count(1) as num from duoduo_tixian where status=0-----09:20:57
+::1-----select count(1) as num from duoduo_hezuo where status=0-----09:20:57
+::1-----select count(1) as num from duoduo_baobei where status=2-----09:20:57
+::1-----select sum(money) as sum from duoduo_tixian where type=1 and status=1 and dotime >= "1474214400" and dotime < "1474300799"-----09:20:57
+::1-----select sum(money) as sum from duoduo_tixian where type=2 and status=1 and dotime >= "1474214400" and dotime < "1474300799"-----09:20:57
+::1-----select sum(spend) as sum from duoduo_duihuan where mode=1 and status=1 and addtime >= "1474214400" and addtime < "1474300799"-----09:20:57
+::1-----select count(1) as num from duoduo_user where 1 and regtime >= "2016-09-19 00:00:00" and regtime < "2016-09-19 23:59:59"-----09:20:57
+::1-----select sum(real_pay_fee) as sum from duoduo_tradelist where 1 and pay_time >= "2016-09-19 00:00:00" and pay_time < "2016-09-19 23:59:59"-----09:20:57
+::1-----select sum(commission) as sum from duoduo_tradelist where 1 and pay_time >= "2016-09-19 00:00:00" and pay_time < "2016-09-19 23:59:59"-----09:20:57
+::1-----select count(1) as num from duoduo_tradelist where 1 and pay_time >= "2016-09-19 00:00:00" and pay_time < "2016-09-19 23:59:59"-----09:20:57
+::1-----select count(1) as num from duoduo_tradelist where checked=2 and pay_time >= "2016-09-19 00:00:00" and pay_time < "2016-09-19 23:59:59"-----09:20:57
+::1-----select sum(sales) as sum from duoduo_mall_order where status=1 and order_time >= "1474214400" and order_time < "1474300799"-----09:20:57
+::1-----select sum(commission) as sum from duoduo_mall_order where status=1 and order_time >= "1474214400" and order_time < "1474300799"-----09:20:57
+::1-----select count(1) as num from duoduo_mall_order where 1 and order_time >= "1474214400" and order_time < "1474300799"-----09:20:57
+::1-----select count(1) as num from duoduo_mall_order where status=1 and order_time >= "1474214400" and order_time < "1474300799"-----09:20:57
+::1-----select count(1) as num from duoduo_mall_order where status=0 and order_time >= "1474214400" and order_time < "1474300799"-----09:20:57
+::1-----select count(1) as num from duoduo_mall_order where uid=0 and order_time >= "1474214400" and order_time < "1474300799"-----09:20:57
+::1-----select sum(`point`) as `point`,sum(`commission`) as `commission` from duoduo_task where (immediate="1" or immediate="2") and addtime >= "2016-09-19 00:00:00" and addtime < "2016-09-19 23:59:59"-----09:20:57
+::1-----select count(1) as num from duoduo_task where 1 and addtime >= "2016-09-19 00:00:00" and addtime < "2016-09-19 23:59:59"-----09:20:57
+::1-----select count(1) as num from duoduo_task where (immediate="1" or immediate="2") and addtime >= "2016-09-19 00:00:00" and addtime < "2016-09-19 23:59:59"-----09:20:57
+::1-----select * from duoduo_kuaijie where 1 order by id asc -----09:20:57
+::1-----select title from duoduo_menu where `mod`="webset" and act="center" limit 1-----09:20:57
+::1-----set names utf8-----14:32:16
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:32:16
+::1-----select * from duoduo_webset where type=2 -----14:32:16
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:32:16
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:32:16
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:32:16
+::1-----select title from duoduo_menu where `mod`="mall" and act="set" limit 1-----14:32:17
+::1-----set names utf8-----14:32:20
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:32:20
+::1-----select * from duoduo_webset where type=2 -----14:32:20
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:32:20
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:32:20
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:32:20
+::1-----select id from duoduo_mall where 1 limit 1-----14:32:20
+::1-----select title from duoduo_menu where `mod`="template" and act="set" limit 1-----14:32:20
+::1-----set names utf8-----14:32:21
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:32:21
+::1-----select * from duoduo_webset where type=2 -----14:32:21
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:32:21
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:32:21
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:32:21
+::1-----select id from duoduo_mall where 1 limit 1-----14:32:21
+::1-----select id,title from duoduo_nav where 1=1 -----14:32:21
+::1-----select id,tag from duoduo_nav where 1=1 -----14:32:22
+::1-----show fields from `duoduo_nav`-----14:32:22
+::1-----show fields from `duoduo_nav`-----14:32:22
+::1-----select count(1) as num from duoduo_nav where `title` like '%%' -----14:32:22
+::1-----select count(1) as num from duoduo_nav where `title` like '%%'  and pid = 0 -----14:32:22
+::1-----select * from duoduo_nav where `title` like "%%"  and pid = 0  order by  hide asc ,sort =0 ASC , sort ASC ,id desc limit 0,20 -----14:32:22
+::1-----select * from duoduo_nav where pid = "1" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:32:22
+::1-----select * from duoduo_nav where pid = "15" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:32:22
+::1-----select * from duoduo_nav where pid = "3" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:32:22
+::1-----select * from duoduo_nav where pid = "4" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:32:22
+::1-----select * from duoduo_nav where pid = "5" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:32:22
+::1-----select * from duoduo_nav where pid = "6" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:32:22
+::1-----select * from duoduo_nav where pid = "17" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:32:22
+::1-----select * from duoduo_nav where pid = "16" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:32:22
+::1-----select * from duoduo_nav where pid = "10" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:32:22
+::1-----select * from duoduo_nav where pid = "2" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:32:22
+::1-----select * from duoduo_nav where pid = "14" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:32:22
+::1-----select * from duoduo_nav where pid = "8" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:32:22
+::1-----select title from duoduo_menu where `mod`="nav" and act="list" limit 1-----14:32:22
+::1-----set names utf8-----14:32:52
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:32:52
+::1-----select * from duoduo_webset where type=2 -----14:32:52
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:32:52
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:32:52
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:32:52
+::1-----select id from duoduo_mall where 1 limit 1-----14:32:52
+::1-----select id,title from duoduo_nav where 1=1 -----14:32:52
+::1-----select id,tag from duoduo_nav where 1=1 -----14:32:52
+::1-----select * from duoduo_nav where id="3" limit 1-----14:32:52
+::1-----select title from duoduo_menu where `mod`="nav" and act="addedi" limit 1-----14:32:52
+::1-----select count(1) as num from duoduo_nav where pid="3"-----14:32:52
+::1-----select id,title from duoduo_nav where pid=0 -----14:32:52
+::1-----select code,title from duoduo_bankuai where  1 order by sort desc,id desc -----14:32:52
+::1-----set names utf8-----14:33:06
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:33:06
+::1-----select * from duoduo_webset where type=2 -----14:33:06
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:33:06
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:33:06
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:33:06
+::1-----insert into duoduo_adminlog set `mod`='nav',`admin_name`='admin',`addtime`='1474266785',`ip`='::1',`do`='update'-----14:33:06
+::1-----select id,title from duoduo_nav where 1=1 -----14:33:06
+::1-----select id,tag from duoduo_nav where 1=1 -----14:33:06
+::1-----update duoduo_nav set `sort`='14',`alt`='',`pid`='0',`tip`='0',`plugin`='0',`type`='0',`hide`='1',`target`='0',`tag`='mall',`code`='',`act`='index',`mod`='mall',`bankuai_name`='',`mod_name`='index',`diaoyong`='0',`url`='',`lianjie`='0',`title`='超级返利' where id="3" limit 1-----14:33:06
+::1-----update duoduo_nav set `sort`='0' where sort="14"-----14:33:06
+::1-----update duoduo_nav set `sort`='14' where id="3" limit 1-----14:33:06
+::1-----select * from duoduo_nav where hide="0" and pid=0 order by sort =0 ASC , sort ASC  -----14:33:06
+::1-----select * from duoduo_nav where hide="0" and pid<>0 order by sort =0 ASC , sort ASC  -----14:33:06
+::1-----set names utf8-----14:33:09
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:33:09
+::1-----select * from duoduo_webset where type=2 -----14:33:09
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:33:09
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:33:09
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:33:09
+::1-----select id from duoduo_mall where 1 limit 1-----14:33:09
+::1-----select id,title from duoduo_nav where 1=1 -----14:33:09
+::1-----select id,tag from duoduo_nav where 1=1 -----14:33:09
+::1-----show fields from `duoduo_nav`-----14:33:09
+::1-----show fields from `duoduo_nav`-----14:33:09
+::1-----select count(1) as num from duoduo_nav where `title` like '%%' -----14:33:09
+::1-----select count(1) as num from duoduo_nav where `title` like '%%'  and pid = 0 -----14:33:09
+::1-----select * from duoduo_nav where `title` like "%%"  and pid = 0  order by  hide asc ,sort =0 ASC , sort ASC ,id desc limit 0,20 -----14:33:09
+::1-----select * from duoduo_nav where pid = "1" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:09
+::1-----select * from duoduo_nav where pid = "15" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:09
+::1-----select * from duoduo_nav where pid = "4" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:09
+::1-----select * from duoduo_nav where pid = "5" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:09
+::1-----select * from duoduo_nav where pid = "6" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:09
+::1-----select * from duoduo_nav where pid = "17" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:09
+::1-----select * from duoduo_nav where pid = "16" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:09
+::1-----select * from duoduo_nav where pid = "10" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:09
+::1-----select * from duoduo_nav where pid = "2" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:09
+::1-----select * from duoduo_nav where pid = "3" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:09
+::1-----select * from duoduo_nav where pid = "14" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:09
+::1-----select * from duoduo_nav where pid = "8" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:09
+::1-----select title from duoduo_menu where `mod`="nav" and act="list" limit 1-----14:33:09
+::1-----set names utf8-----14:33:18
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:33:18
+::1-----select * from duoduo_webset where type=2 -----14:33:18
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:33:18
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:33:18
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:33:18
+::1-----select id from duoduo_mall where 1 limit 1-----14:33:18
+::1-----select id,title from duoduo_nav where 1=1 -----14:33:18
+::1-----select id,tag from duoduo_nav where 1=1 -----14:33:18
+::1-----select * from duoduo_nav where id="4" limit 1-----14:33:18
+::1-----select title from duoduo_menu where `mod`="nav" and act="addedi" limit 1-----14:33:18
+::1-----select count(1) as num from duoduo_nav where pid="4"-----14:33:18
+::1-----select id,title from duoduo_nav where pid=0 -----14:33:18
+::1-----select code,title from duoduo_bankuai where  1 order by sort desc,id desc -----14:33:18
+::1-----set names utf8-----14:33:24
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:33:24
+::1-----select * from duoduo_webset where type=2 -----14:33:24
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:33:24
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:33:24
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:33:24
+::1-----insert into duoduo_adminlog set `mod`='nav',`admin_name`='admin',`addtime`='1474266803',`ip`='::1',`do`='update'-----14:33:24
+::1-----delete from duoduo_adminlog where addtime<"1469082803"-----14:33:24
+::1-----select id,title from duoduo_nav where 1=1 -----14:33:24
+::1-----select id,tag from duoduo_nav where 1=1 -----14:33:24
+::1-----update duoduo_nav set `sort`='15',`alt`='',`pid`='0',`tip`='0',`plugin`='0',`type`='0',`hide`='1',`target`='0',`tag`='baobei',`code`='',`act`='list',`mod`='baobei',`bankuai_name`='',`mod_name`='index',`diaoyong`='0',`url`='',`lianjie`='0',`title`='晒单秀' where id="4" limit 1-----14:33:24
+::1-----update duoduo_nav set `sort`='0' where sort="15"-----14:33:24
+::1-----update duoduo_nav set `sort`='15' where id="4" limit 1-----14:33:24
+::1-----select * from duoduo_nav where hide="0" and pid=0 order by sort =0 ASC , sort ASC  -----14:33:24
+::1-----select * from duoduo_nav where hide="0" and pid<>0 order by sort =0 ASC , sort ASC  -----14:33:24
+::1-----set names utf8-----14:33:27
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:33:27
+::1-----select * from duoduo_webset where type=2 -----14:33:27
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:33:27
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:33:27
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:33:27
+::1-----select id from duoduo_mall where 1 limit 1-----14:33:27
+::1-----select id,title from duoduo_nav where 1=1 -----14:33:27
+::1-----select id,tag from duoduo_nav where 1=1 -----14:33:27
+::1-----show fields from `duoduo_nav`-----14:33:27
+::1-----show fields from `duoduo_nav`-----14:33:27
+::1-----select count(1) as num from duoduo_nav where `title` like '%%' -----14:33:27
+::1-----select count(1) as num from duoduo_nav where `title` like '%%'  and pid = 0 -----14:33:27
+::1-----select * from duoduo_nav where `title` like "%%"  and pid = 0  order by  hide asc ,sort =0 ASC , sort ASC ,id desc limit 0,20 -----14:33:27
+::1-----select * from duoduo_nav where pid = "1" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:27
+::1-----select * from duoduo_nav where pid = "15" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:27
+::1-----select * from duoduo_nav where pid = "5" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:27
+::1-----select * from duoduo_nav where pid = "6" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:27
+::1-----select * from duoduo_nav where pid = "17" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:27
+::1-----select * from duoduo_nav where pid = "16" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:27
+::1-----select * from duoduo_nav where pid = "10" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:27
+::1-----select * from duoduo_nav where pid = "2" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:27
+::1-----select * from duoduo_nav where pid = "3" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:27
+::1-----select * from duoduo_nav where pid = "4" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:27
+::1-----select * from duoduo_nav where pid = "14" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:27
+::1-----select * from duoduo_nav where pid = "8" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:33:27
+::1-----select title from duoduo_menu where `mod`="nav" and act="list" limit 1-----14:33:27
+::1-----set names utf8-----14:45:46
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:45:46
+::1-----select * from duoduo_webset where type=2 -----14:45:46
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:45:46
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:45:46
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:45:46
+::1-----select id from duoduo_mall where 1 limit 1-----14:45:46
+::1-----select id,title from duoduo_nav where 1=1 -----14:45:46
+::1-----select id,tag from duoduo_nav where 1=1 -----14:45:46
+::1-----select * from duoduo_nav where id="16" limit 1-----14:45:46
+::1-----select title from duoduo_menu where `mod`="nav" and act="addedi" limit 1-----14:45:46
+::1-----select count(1) as num from duoduo_nav where pid="16"-----14:45:46
+::1-----select id,title from duoduo_nav where pid=0 -----14:45:46
+::1-----select code,title from duoduo_bankuai where  1 order by sort desc,id desc -----14:45:46
+::1-----set names utf8-----14:45:57
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:45:57
+::1-----select * from duoduo_webset where type=2 -----14:45:57
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:45:57
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:45:57
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:45:57
+::1-----insert into duoduo_adminlog set `mod`='nav',`admin_name`='admin',`addtime`='1474267556',`ip`='::1',`do`='update'-----14:45:57
+::1-----delete from duoduo_adminlog where addtime<"1469083556"-----14:45:57
+::1-----select id,title from duoduo_nav where 1=1 -----14:45:57
+::1-----select id,tag from duoduo_nav where 1=1 -----14:45:57
+::1-----update duoduo_nav set `sort`='50',`alt`='',`pid`='0',`tip`='0',`plugin`='0',`type`='0',`hide`='0',`target`='0',`tag`='article',`code`='',`act`='view&id=68',`mod`='article',`bankuai_name`='',`mod_name`='article',`diaoyong`='1',`url`='',`lianjie`='0',`title`='安全保障' where id="16" limit 1-----14:45:57
+::1-----update duoduo_nav set `sort`='0' where sort="50"-----14:45:57
+::1-----update duoduo_nav set `sort`='50' where id="16" limit 1-----14:45:57
+::1-----select * from duoduo_nav where hide="0" and pid=0 order by sort =0 ASC , sort ASC  -----14:45:57
+::1-----select * from duoduo_nav where hide="0" and pid<>0 order by sort =0 ASC , sort ASC  -----14:45:57
+::1-----set names utf8-----14:46:00
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:46:00
+::1-----select * from duoduo_webset where type=2 -----14:46:00
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:46:00
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:46:00
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:46:00
+::1-----select id from duoduo_mall where 1 limit 1-----14:46:00
+::1-----select id,title from duoduo_nav where 1=1 -----14:46:00
+::1-----select id,tag from duoduo_nav where 1=1 -----14:46:00
+::1-----show fields from `duoduo_nav`-----14:46:00
+::1-----show fields from `duoduo_nav`-----14:46:00
+::1-----select count(1) as num from duoduo_nav where `title` like '%%' -----14:46:00
+::1-----select count(1) as num from duoduo_nav where `title` like '%%'  and pid = 0 -----14:46:00
+::1-----select * from duoduo_nav where `title` like "%%"  and pid = 0  order by  hide asc ,sort =0 ASC , sort ASC ,id desc limit 0,20 -----14:46:00
+::1-----select * from duoduo_nav where pid = "1" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:46:00
+::1-----select * from duoduo_nav where pid = "15" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:46:00
+::1-----select * from duoduo_nav where pid = "5" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:46:00
+::1-----select * from duoduo_nav where pid = "6" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:46:00
+::1-----select * from duoduo_nav where pid = "16" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:46:00
+::1-----select * from duoduo_nav where pid = "17" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:46:00
+::1-----select * from duoduo_nav where pid = "10" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:46:00
+::1-----select * from duoduo_nav where pid = "2" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:46:00
+::1-----select * from duoduo_nav where pid = "3" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:46:00
+::1-----select * from duoduo_nav where pid = "4" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:46:00
+::1-----select * from duoduo_nav where pid = "14" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:46:00
+::1-----select * from duoduo_nav where pid = "8" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:46:00
+::1-----select title from duoduo_menu where `mod`="nav" and act="list" limit 1-----14:46:00
+::1-----set names utf8-----14:46:12
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:46:12
+::1-----select * from duoduo_webset where type=2 -----14:46:12
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:46:12
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:46:12
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:46:12
+::1-----select id from duoduo_mall where 1 limit 1-----14:46:12
+::1-----select id,title from duoduo_nav where 1=1 -----14:46:12
+::1-----select id,tag from duoduo_nav where 1=1 -----14:46:12
+::1-----select title from duoduo_menu where `mod`="nav" and act="addedi" limit 1-----14:46:12
+::1-----select count(1) as num from duoduo_nav where pid=""-----14:46:12
+::1-----select code,title from duoduo_bankuai where  1 order by sort desc,id desc -----14:46:12
+::1-----set names utf8-----14:48:51
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:48:51
+::1-----select * from duoduo_webset where type=2 -----14:48:51
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:48:51
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:48:51
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:48:51
+::1-----insert into duoduo_adminlog set `mod`='nav',`admin_name`='admin',`addtime`='1474267730',`ip`='::1',`do`='insert'-----14:48:51
+::1-----select id,title from duoduo_nav where 1=1 -----14:48:51
+::1-----select id,tag from duoduo_nav where 1=1 -----14:48:51
+::1-----insert into duoduo_nav set `title`='我的账户',`lianjie`='0',`url`='',`diaoyong`='0',`mod_name`='index',`bankuai_name`='',`mod`='user',`act`='index',`code`='',`tag`='user',`target`='0',`hide`='0',`type`='0',`plugin`='0',`tip`='0',`pid`='0',`alt`='',`sort`='70',`addtime`='1474267730'-----14:48:51
+::1-----update duoduo_nav set `sort`='0' where sort="70"-----14:48:51
+::1-----update duoduo_nav set `sort`='70' where id="18" limit 1-----14:48:51
+::1-----select * from duoduo_nav where hide="0" and pid=0 order by sort =0 ASC , sort ASC  -----14:48:51
+::1-----select * from duoduo_nav where hide="0" and pid<>0 order by sort =0 ASC , sort ASC  -----14:48:51
+::1-----set names utf8-----14:48:54
+::1-----select * from duoduo_webset where type=1 or type=0 -----14:48:54
+::1-----select * from duoduo_webset where type=2 -----14:48:54
+::1-----select val from duoduo_webset where var="authorize" limit 1-----14:48:54
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----14:48:54
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----14:48:54
+::1-----select id from duoduo_mall where 1 limit 1-----14:48:54
+::1-----select id,title from duoduo_nav where 1=1 -----14:48:54
+::1-----select id,tag from duoduo_nav where 1=1 -----14:48:54
+::1-----show fields from `duoduo_nav`-----14:48:54
+::1-----show fields from `duoduo_nav`-----14:48:54
+::1-----select count(1) as num from duoduo_nav where `title` like '%%' -----14:48:54
+::1-----select count(1) as num from duoduo_nav where `title` like '%%'  and pid = 0 -----14:48:54
+::1-----select * from duoduo_nav where `title` like "%%"  and pid = 0  order by  hide asc ,sort =0 ASC , sort ASC ,id desc limit 0,20 -----14:48:54
+::1-----select * from duoduo_nav where pid = "1" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:48:54
+::1-----select * from duoduo_nav where pid = "15" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:48:54
+::1-----select * from duoduo_nav where pid = "5" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:48:54
+::1-----select * from duoduo_nav where pid = "6" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:48:54
+::1-----select * from duoduo_nav where pid = "16" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:48:54
+::1-----select * from duoduo_nav where pid = "17" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:48:54
+::1-----select * from duoduo_nav where pid = "18" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:48:54
+::1-----select * from duoduo_nav where pid = "10" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:48:54
+::1-----select * from duoduo_nav where pid = "2" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:48:54
+::1-----select * from duoduo_nav where pid = "3" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:48:54
+::1-----select * from duoduo_nav where pid = "4" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:48:54
+::1-----select * from duoduo_nav where pid = "14" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:48:54
+::1-----select * from duoduo_nav where pid = "8" order by hide asc ,sort =0 ASC , sort ASC,id desc -----14:48:54
+::1-----select title from duoduo_menu where `mod`="nav" and act="list" limit 1-----14:48:54
+::1-----set names utf8-----15:15:32
+::1-----select * from duoduo_webset where type=1 or type=0 -----15:15:32
+::1-----select * from duoduo_webset where type=2 -----15:15:32
+::1-----select val from duoduo_webset where var="authorize" limit 1-----15:15:32
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----15:15:32
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----15:15:32
+::1-----select id from duoduo_mall where 1 limit 1-----15:15:32
+::1-----Show Tables-----15:15:32
+::1-----SELECT VERSION();-----15:15:32
+::1-----select title from duoduo_menu where `mod`="data" and act="list" limit 1-----15:15:32
+::1-----select count(1) as num from duoduo_ad -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_ad'-----15:15:32
+::1-----select count(1) as num from duoduo_adminlog -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_adminlog'-----15:15:32
+::1-----select count(1) as num from duoduo_api -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_api'-----15:15:32
+::1-----select count(1) as num from duoduo_apilogin -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_apilogin'-----15:15:32
+::1-----select count(1) as num from duoduo_article -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_article'-----15:15:32
+::1-----select count(1) as num from duoduo_bankuai -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_bankuai'-----15:15:32
+::1-----select count(1) as num from duoduo_baobei -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_baobei'-----15:15:32
+::1-----select count(1) as num from duoduo_baobei_comment -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_baobei_comment'-----15:15:32
+::1-----select count(1) as num from duoduo_baobei_hart -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_baobei_hart'-----15:15:32
+::1-----select count(1) as num from duoduo_buy_log -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_buy_log'-----15:15:32
+::1-----select count(1) as num from duoduo_collect -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_collect'-----15:15:32
+::1-----select count(1) as num from duoduo_cron -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_cron'-----15:15:32
+::1-----select count(1) as num from duoduo_cron_content -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_cron_content'-----15:15:32
+::1-----select count(1) as num from duoduo_ddtuiguang -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_ddtuiguang'-----15:15:32
+::1-----select count(1) as num from duoduo_domain -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_domain'-----15:15:32
+::1-----select count(1) as num from duoduo_duihuan -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_duihuan'-----15:15:32
+::1-----select count(1) as num from duoduo_duoduo2010 -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_duoduo2010'-----15:15:32
+::1-----select count(1) as num from duoduo_file -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_file'-----15:15:32
+::1-----select count(1) as num from duoduo_goods -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_goods'-----15:15:32
+::1-----select count(1) as num from duoduo_goods_attribute -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_goods_attribute'-----15:15:32
+::1-----select count(1) as num from duoduo_goods_comment -----15:15:32
+::1-----SHOW TABLE STATUS LIKE 'duoduo_goods_comment'-----15:15:33
+::1-----select count(1) as num from duoduo_goods_vote -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_goods_vote'-----15:15:33
+::1-----select count(1) as num from duoduo_hezuo -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_hezuo'-----15:15:33
+::1-----select count(1) as num from duoduo_huan_goods -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_huan_goods'-----15:15:33
+::1-----select count(1) as num from duoduo_income -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_income'-----15:15:33
+::1-----select count(1) as num from duoduo_kuaijie -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_kuaijie'-----15:15:33
+::1-----select count(1) as num from duoduo_link -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_link'-----15:15:33
+::1-----select count(1) as num from duoduo_mall -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_mall'-----15:15:33
+::1-----select count(1) as num from duoduo_mall_comment -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_mall_comment'-----15:15:33
+::1-----select count(1) as num from duoduo_mall_order -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_mall_order'-----15:15:33
+::1-----select count(1) as num from duoduo_menu -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_menu'-----15:15:33
+::1-----select count(1) as num from duoduo_menu_access -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_menu_access'-----15:15:33
+::1-----select count(1) as num from duoduo_mingxi -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_mingxi'-----15:15:33
+::1-----select count(1) as num from duoduo_msg -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_msg'-----15:15:33
+::1-----select count(1) as num from duoduo_msgset -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_msgset'-----15:15:33
+::1-----select count(1) as num from duoduo_nav -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_nav'-----15:15:33
+::1-----select count(1) as num from duoduo_noword -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_noword'-----15:15:33
+::1-----select count(1) as num from duoduo_pai_words -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_pai_words'-----15:15:33
+::1-----select count(1) as num from duoduo_paipai_order -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_paipai_order'-----15:15:33
+::1-----select count(1) as num from duoduo_plugin -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_plugin'-----15:15:33
+::1-----select count(1) as num from duoduo_plugin_file -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_plugin_file'-----15:15:33
+::1-----select count(1) as num from duoduo_qunfa_tag -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_qunfa_tag'-----15:15:33
+::1-----select count(1) as num from duoduo_record_goods -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_record_goods'-----15:15:33
+::1-----select count(1) as num from duoduo_role -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_role'-----15:15:33
+::1-----select count(1) as num from duoduo_seo -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_seo'-----15:15:33
+::1-----select count(1) as num from duoduo_service -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_service'-----15:15:33
+::1-----select count(1) as num from duoduo_slides -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_slides'-----15:15:33
+::1-----select count(1) as num from duoduo_statement -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_statement'-----15:15:33
+::1-----select count(1) as num from duoduo_taopid -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_taopid'-----15:15:33
+::1-----select count(1) as num from duoduo_task -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_task'-----15:15:33
+::1-----select count(1) as num from duoduo_tgyj -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_tgyj'-----15:15:33
+::1-----select count(1) as num from duoduo_tixian -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_tixian'-----15:15:33
+::1-----select count(1) as num from duoduo_tpl -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_tpl'-----15:15:33
+::1-----select count(1) as num from duoduo_trade_uid -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_trade_uid'-----15:15:33
+::1-----select count(1) as num from duoduo_tradelist -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_tradelist'-----15:15:33
+::1-----select count(1) as num from duoduo_tradelist_temp -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_tradelist_temp'-----15:15:33
+::1-----select count(1) as num from duoduo_type -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_type'-----15:15:33
+::1-----select count(1) as num from duoduo_user -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_user'-----15:15:33
+::1-----select count(1) as num from duoduo_user_temp -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_user_temp'-----15:15:33
+::1-----select count(1) as num from duoduo_webset -----15:15:33
+::1-----SHOW TABLE STATUS LIKE 'duoduo_webset'-----15:15:33
+::1-----set names utf8-----20:49:18
+::1-----select * from duoduo_webset where type=1 or type=0 -----20:49:18
+::1-----select * from duoduo_webset where type=2 -----20:49:18
+::1-----select val from duoduo_webset where var="authorize" limit 1-----20:49:18
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----20:49:18
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----20:49:18
+::1-----select id from duoduo_mall where 1 limit 1-----20:49:19
+::1-----select title from duoduo_menu where `mod`="webset" and act="set" limit 1-----20:49:19
+::1-----set names utf8-----20:50:43
+::1-----select * from duoduo_webset where type=1 or type=0 -----20:50:43
+::1-----select * from duoduo_webset where type=2 -----20:50:43
+::1-----select val from duoduo_webset where var="authorize" limit 1-----20:50:43
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----20:50:43
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----20:50:43
+::1-----select * from duoduo_webset where type=1 or type=0 -----20:50:43
+::1-----select * from duoduo_webset where type=2 -----20:50:43
+::1-----select * from duoduo_nav where hide="0" and pid=0 order by sort =0 ASC , sort ASC  -----20:50:43
+::1-----select * from duoduo_nav where hide="0" and pid<>0 order by sort =0 ASC , sort ASC  -----20:50:43
+::1-----select * from duoduo_api where open="1" order by sort asc -----20:50:43
+::1-----select * from duoduo_webset where type=1 or type=0 -----20:50:43
+::1-----select * from duoduo_webset where type=2 -----20:50:43
+::1-----select code,title,type from duoduo_service where 1=1 order by sort asc -----20:50:43
+::1-----select `title`,`replace` from duoduo_noword where 1=1 -----20:50:43
+::1-----select `title_arr`,`replace` from duoduo_noword where title_arr is not null and title_arr<>"" -----20:50:43
+::1-----select id,title,tag from duoduo_type order by sort asc-----20:50:43
+::1-----select id,title,web,web_open,email,email_open,sms,sms_open from duoduo_msgset where 1=1 -----20:50:43
+::1-----select * from duoduo_ad where 1=1 -----20:50:43
+::1-----delete from duoduo_buy_log where day<"20160820"-----20:50:43
+::1-----select * from duoduo_bankuai where 1 order by sort=0 ASC,tuijian desc,sort asc -----20:50:43
+::1-----select * from duoduo_cron where 1=1 -----20:50:44
+::1-----select * from duoduo_domain where 1=1 -----20:50:44
+::1-----select * from duoduo_taopid where 1=1 -----20:50:44
+::1-----set names utf8-----22:11:47
+::1-----select * from duoduo_webset where type=1 or type=0 -----22:11:47
+::1-----select * from duoduo_webset where type=2 -----22:11:47
+::1-----select val from duoduo_webset where var="authorize" limit 1-----22:11:47
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----22:11:47
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----22:11:47
+::1-----select id from duoduo_mall where 1 limit 1-----22:11:47
+::1-----show table status like 'duoduo_user'-----22:11:47
+::1-----select title from duoduo_menu where `mod`="user" and act="set" limit 1-----22:11:47
+::1-----set names utf8-----22:13:19
+::1-----select * from duoduo_webset where type=1 or type=0 -----22:13:19
+::1-----select * from duoduo_webset where type=2 -----22:13:19
+::1-----select val from duoduo_webset where var="authorize" limit 1-----22:13:19
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----22:13:19
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----22:13:19
+::1-----insert into duoduo_adminlog set `mod`='user',`admin_name`='admin',`addtime`='1474294397',`ip`='::1',`do`='set'-----22:13:19
+::1-----select id,var from duoduo_webset where 1=1 -----22:13:19
+::1-----update duoduo_webset set `type`='1',`val`='a:4:{i:0;a:2:{s:5:\"title\";s:12:\"普通会�\�\";s:5:\"level\";s:1:\"0\";}i:1;a:2:{s:5:\"title\";s:12:\"黄金会员\";s:5:\"level\";s:2:\"30\";}i:2;a:2:{s:5:\"title\";s:12:\"白金会员\";s:5:\"level\";s:2:\"50\";}i:3;a:2:{s:5:\"title\";s:12:\"钻石会员\";s:5:\"level\";s:3:\"100\";}}' where var="level" limit 1-----22:13:19
+::1-----select val from duoduo_webset where var="user" limit 1-----22:13:19
+::1-----select id,var from duoduo_webset where 1=1 -----22:13:19
+::1-----update duoduo_webset set `type`='1',`val`='a:16:{s:5:\"jihuo\";s:1:\"0\";s:9:\"reg_money\";s:1:\"0\";s:12:\"reg_jifenbao\";s:1:\"0\";s:9:\"reg_jifen\";s:1:\"0\";s:9:\"reg_level\";s:1:\"0\";s:11:\"need_alipay\";s:1:\"0\";s:7:\"need_qq\";s:1:\"0\";s:11:\"need_tbnick\";s:1:\"0\";s:8:\"need_tjr\";s:1:\"1\";s:11:\"reg_between\";s:1:\"0\";s:14:\"auto_increment\";s:2:\"26\";s:7:\"autoreg\";s:1:\"1\";s:9:\"login_tip\";s:1:\"1\";s:8:\"limit_ip\";s:0:\"\";s:9:\"up_avatar\";s:1:\"1\";s:6:\"shoutu\";s:1:\"1\";}' where var="user" limit 1-----22:13:19
+::1-----select val from duoduo_webset where var="yinxiangma" limit 1-----22:13:19
+::1-----select id,var from duoduo_webset where 1=1 -----22:13:19
+::1-----update duoduo_webset set `type`='1',`val`='a:3:{s:4:\"open\";s:1:\"0\";s:11:\"private_key\";s:0:\"\";s:10:\"public_key\";s:0:\"\";}' where var="yinxiangma" limit 1-----22:13:19
+::1-----select * from duoduo_webset where type=1 or type=0 -----22:13:19
+::1-----select * from duoduo_webset where type=2 -----22:13:19
+::1-----set names utf8-----22:13:22
+::1-----select * from duoduo_webset where type=1 or type=0 -----22:13:22
+::1-----select * from duoduo_webset where type=2 -----22:13:22
+::1-----select val from duoduo_webset where var="authorize" limit 1-----22:13:22
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----22:13:22
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----22:13:22
+::1-----select id from duoduo_mall where 1 limit 1-----22:13:22
+::1-----show table status like 'duoduo_user'-----22:13:22
+::1-----select title from duoduo_menu where `mod`="user" and act="set" limit 1-----22:13:22
+::1-----set names utf8-----23:40:18
+::1-----select * from duoduo_webset where type=1 or type=0 -----23:40:18
+::1-----select * from duoduo_webset where type=2 -----23:40:18
+::1-----select val from duoduo_webset where var="authorize" limit 1-----23:40:18
+::1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----23:40:18
+::1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----23:40:18
+::1-----select id from duoduo_mall where 1 limit 1-----23:40:19
+::1-----select count(1) as num from duoduo_type where `title` like '%%' and tag='article'-----23:40:19
+::1-----select title from duoduo_menu where `mod`="article_type" and act="list" limit 1-----23:40:19
+::1-----select * from duoduo_type where pid="0" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----23:40:19
+::1-----select count(1) as num from duoduo_article where cid="10009"-----23:40:19
+::1-----select * from duoduo_type where pid="10009" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----23:40:19
+::1-----select count(1) as num from duoduo_article where cid="10010"-----23:40:19
+::1-----select * from duoduo_type where pid="10010" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----23:40:19
+::1-----select count(1) as num from duoduo_article where cid="1"-----23:40:19
+::1-----select * from duoduo_type where pid="1" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----23:40:19
+::1-----select count(1) as num from duoduo_article where cid="3"-----23:40:19
+::1-----select * from duoduo_type where pid="3" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----23:40:19
+::1-----select count(1) as num from duoduo_article where cid="4"-----23:40:19
+::1-----select * from duoduo_type where pid="4" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----23:40:19
+::1-----select count(1) as num from duoduo_article where cid="5"-----23:40:19
+::1-----select * from duoduo_type where pid="5" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----23:40:19
+::1-----select count(1) as num from duoduo_article where cid="2"-----23:40:19
+::1-----select * from duoduo_type where pid="2" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----23:40:19
+::1-----select count(1) as num from duoduo_article where cid="26"-----23:40:19
+::1-----select * from duoduo_type where pid="26" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----23:40:19
+::1-----select count(1) as num from duoduo_article where cid="28"-----23:40:19
+::1-----select * from duoduo_type where pid="28" and tag="article" and title like "%%" order by sort asc,id asc limit 0,20 -----23:40:19

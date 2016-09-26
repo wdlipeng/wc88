@@ -250,8 +250,8 @@ html {
     </div>
    
   <div class="iframe">
-    <!--  <iframe src="http://www.fanlicheng.com/plugin/licai/index.html?mid=<?=$dduser['id']?>&url=<?=urlencode(SITEURL)?>&cururl=<?=urlencode(p(MOD,ACT))?>" style='width:100%;height:1780px;' scrolling="no" frameborder='no' border='0'></iframe> -->
-    <iframe src="http://www.fanlicheng.com/plugin/licai/index.html?mid=<?=$dduser['id']?>" style='width:100%;height:1780px;' scrolling="no" frameborder='no' border='0'></iframe>
+     <iframe src="http://www.fanlicheng.com/plugin/licai/index.html?mid=<?=$dduser['id']?>&url=<?=urlencode(SITEURL)?>&cururl=<?=urlencode(p(MOD,ACT))?>" style='width:100%;height:1780px;' scrolling="no" frameborder='no' border='0'></iframe> 
+  <?php /*?><iframe src="http://www.fanlicheng.com/plugin/licai/index.html?mid=<?=$dduser['id']?>" style='width:100%;height:1780px;' scrolling="no" frameborder='no' border='0'></iframe> <?php */?>
     <div id="ajax_iframe_loading" style="background:#999; color:#000;filter:alpha(opacity=80);-moz-opacity:0.8;opacity: 0.8;;width:100%; height:1530px; padding-top:250px;margin:auto;text-align:center; z-index:555; position:absolute; top:0px; left:0px;  font-size:16px; font-weight:bolder; display:none;"><img src="<?=PLUGIN_TPLURL?>images/ajax_loader.gif" style="margin-bottom:-2px" />&nbsp;&nbsp;正在拼命加载中</div>
     <a href="<?=u('user','login')?>" ><div id="tiplogin-beijing" style="width: 1000px; height: 1780px; top: 0px; position: absolute; left: 50%; margin-left: -499px;filter:alpha(opacity=1);-moz-opacity:0.1;-khtml-opacity: 0.1;opacity: 0.1; background-color:#FFF; display:none;">&nbsp;</div></a>
   </div>

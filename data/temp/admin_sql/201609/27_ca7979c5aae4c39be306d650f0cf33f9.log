@@ -135,3 +135,67 @@
 127.0.0.1-----select title from duoduo_menu where `mod`="template" and act="admin_set" limit 1-----11:42:23
 127.0.0.1-----update duoduo_tpl set `title`='pc_default' where title="default" limit 1-----11:42:23
 127.0.0.1-----select data from duoduo_tpl where title="pc_default" limit 1-----11:42:23
+127.0.0.1-----set names utf8-----12:49:44
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----12:49:44
+127.0.0.1-----select * from duoduo_webset where type=2 -----12:49:44
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----12:49:44
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----12:49:44
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----12:49:44
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----12:49:45
+127.0.0.1-----select * from duoduo_webset where type=2 -----12:49:45
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid=0 order by sort =0 ASC , sort ASC  -----12:49:45
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid<>0 order by sort =0 ASC , sort ASC  -----12:49:45
+127.0.0.1-----select * from duoduo_api where open="1" order by sort asc -----12:49:45
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----12:49:45
+127.0.0.1-----select * from duoduo_webset where type=2 -----12:49:45
+127.0.0.1-----select code,title,type from duoduo_service where 1=1 order by sort asc -----12:49:45
+127.0.0.1-----select `title`,`replace` from duoduo_noword where 1=1 -----12:49:45
+127.0.0.1-----select `title_arr`,`replace` from duoduo_noword where title_arr is not null and title_arr<>"" -----12:49:45
+127.0.0.1-----select id,title,tag from duoduo_type order by sort asc-----12:49:45
+127.0.0.1-----select id,title,web,web_open,email,email_open,sms,sms_open from duoduo_msgset where 1=1 -----12:49:45
+127.0.0.1-----select * from duoduo_ad where 1=1 -----12:49:45
+127.0.0.1-----delete from duoduo_buy_log where day<"20160828"-----12:49:45
+127.0.0.1-----select * from duoduo_bankuai where 1 order by sort=0 ASC,tuijian desc,sort asc -----12:49:45
+127.0.0.1-----select * from duoduo_cron where 1=1 -----12:49:45
+127.0.0.1-----select * from duoduo_domain where 1=1 -----12:49:45
+127.0.0.1-----select * from duoduo_taopid where 1=1 -----12:49:45
+127.0.0.1-----set names utf8-----12:59:54
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----12:59:54
+127.0.0.1-----select * from duoduo_webset where type=2 -----12:59:54
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----12:59:54
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----12:59:54
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----12:59:54
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----12:59:54
+127.0.0.1-----select title from duoduo_menu where `mod`="database" and act="debug" limit 1-----12:59:55
+127.0.0.1-----set names utf8-----13:00:15
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----13:00:15
+127.0.0.1-----select * from duoduo_webset where type=2 -----13:00:15
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----13:00:15
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----13:00:15
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----13:00:15
+127.0.0.1-----select id from duoduo_mall where 1 limit 1-----13:00:15
+127.0.0.1-----select title from duoduo_menu where `mod`="database" and act="cache" limit 1-----13:00:15
+127.0.0.1-----set names utf8-----15:51:30
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----15:51:30
+127.0.0.1-----select * from duoduo_webset where type=2 -----15:51:30
+127.0.0.1-----select val from duoduo_webset where var="authorize" limit 1-----15:51:30
+127.0.0.1-----select a.id from duoduo_menu as a,duoduo_menu_access as b where a.`mod`="webset" and a.`act`="center" and a.id=b.menu_id and b.role_id="1" limit 1-----15:51:30
+127.0.0.1-----select a.* from duoduo_menu as a,duoduo_menu_access as b where a.id=b.menu_id and b.role_id='1' and a.mod<>'fun' order by a.listorder desc,a.sort desc,a.id asc-----15:51:30
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----15:51:31
+127.0.0.1-----select * from duoduo_webset where type=2 -----15:51:31
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid=0 order by sort =0 ASC , sort ASC  -----15:51:31
+127.0.0.1-----select * from duoduo_nav where hide="0" and pid<>0 order by sort =0 ASC , sort ASC  -----15:51:31
+127.0.0.1-----select * from duoduo_api where open="1" order by sort asc -----15:51:31
+127.0.0.1-----select * from duoduo_webset where type=1 or type=0 -----15:51:31
+127.0.0.1-----select * from duoduo_webset where type=2 -----15:51:31
+127.0.0.1-----select code,title,type from duoduo_service where 1=1 order by sort asc -----15:51:31
+127.0.0.1-----select `title`,`replace` from duoduo_noword where 1=1 -----15:51:31
+127.0.0.1-----select `title_arr`,`replace` from duoduo_noword where title_arr is not null and title_arr<>"" -----15:51:31
+127.0.0.1-----select id,title,tag from duoduo_type order by sort asc-----15:51:31
+127.0.0.1-----select id,title,web,web_open,email,email_open,sms,sms_open from duoduo_msgset where 1=1 -----15:51:31
+127.0.0.1-----select * from duoduo_ad where 1=1 -----15:51:31
+127.0.0.1-----delete from duoduo_buy_log where day<"20160828"-----15:51:31
+127.0.0.1-----select * from duoduo_bankuai where 1 order by sort=0 ASC,tuijian desc,sort asc -----15:51:31
+127.0.0.1-----select * from duoduo_cron where 1=1 -----15:51:31
+127.0.0.1-----select * from duoduo_domain where 1=1 -----15:51:31
+127.0.0.1-----select * from duoduo_taopid where 1=1 -----15:51:31

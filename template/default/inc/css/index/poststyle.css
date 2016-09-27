@@ -1,0 +1,18 @@
+.gonggao{ margin:0px 0px 0px 20px;font-size:14px; font-weight:bold; width:100px; float:left;}
+.gonggao span{ float:right; font-size:12px;}
+.gonggao span a{color:#454346;}
+.gonggao span a:hover{color:#00c7ff;}
+
+
+.part4{margin:15px auto; width:1200px;height:200px;}
+.part4_left{ float:left; height:inherit; border:1px solid #f9f9f9; width:880px;}
+.part4_left ul{ text-align:center; width:880px;}
+.part4_left ul li{ width:33%; float:left; text-align:center;}
+.part4_left ul li img{ margin-top:25px; margin-bottom:15px;}
+.part4_left ul li span{ margin-top:10px; margin-bottom:10px; display:block; font-size:12px;}
+.part4_left ul li span h4{ font-weight:normal; font-size:16px;}
+.part4_right{ float:right; width:278px; height:auto; border:1px solid #f9f9f9; height:inherit;}
+.part4_right p{ font-size:16px; color:#545458; margin-top:10px; margin-bottom:30px; width:auto; cursor:pointer;}
+.part4_right ul{ margin-left:20px;}
+.part4_right ul li a{ color:#545458; font-size:14px; line-height:40px;}
+.part4_right ul li a:hover{ color:#252525; font-size:15px; text-decoration:underline; }

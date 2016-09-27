@@ -35,13 +35,13 @@ h3{font-family:"黑体";font-size:13px;}
 	border-bottom-width: 1px;
 	border-bottom-style: solid;
 	border-bottom-color: #DCDCDC;
-		
+
 }
 .top1000 {margin:0 auto;
 	padding:0;
 	text-align:left;
 	height:32px;
-	width:1000px;
+	width:1200px;
 	clear:both;}
 
 .topleft {margin:0;
@@ -67,7 +67,7 @@ h3{font-family:"黑体";font-size:13px;}
 	float:right;}
 .topright  a:link,a:visited {font-size:12px;text-decoration:none;}
 .topright  a:hover{color: #FF6600;	text-decoration: underline;}
-	
+
 .topright ul{margin:0;	padding:10px 0 0 0; height:20px; float:right;}
 .topright li {
 	float:left;
@@ -91,7 +91,7 @@ h3{font-family:"黑体";font-size:13px;}
 	margin:4px 0 0 0;
 	display: inline;
 	padding:0px;
-		
+
 }
 .loginWays IMG {
 	MARGIN-TOP: 4px; FLOAT: left; MARGIN-RIGHT: 4px; border:0;
@@ -148,7 +148,7 @@ h3{font-family:"黑体";font-size:13px;}
 	padding:0;
 	text-align:left;
 	height:95px;
-	width:1000px;
+	width:1200px;
 	clear:both;
 	position:relative;
 		}
@@ -159,10 +159,10 @@ h3{font-family:"黑体";font-size:13px;}
 	height:78px;
 	min-width:230px;
 	float:left;
-	
+
 	}
-	
-.logo img{margin:12px 0 0 0px; border:0px;}	
+
+.logo img{margin:12px 0 0 0px; border:0px;}
 .searchR{margin:0;
 	padding:0;
 	text-align:left;
@@ -171,14 +171,14 @@ h3{font-family:"黑体";font-size:13px;}
 	float:left;
 	MARGIN-left:84px;
 		}
-		
+
 .searchR p a:link,a:visited {font-size:12px;text-decoration:none;color:#333333;}
 
 .searchR p a:hover{color: #FF6600;	text-decoration: underline;}
 .searchR p { margin-top:7px; padding:0px;}
-	
+
  .searchbox {
-	MARGIN-TOP: 0px; WIDTH: 450px; FLOAT: left; 
+	MARGIN-TOP: 0px; WIDTH: 450px; FLOAT: left;
 }
 
 .s-nav {
@@ -189,11 +189,11 @@ h3{font-family:"黑体";font-size:13px;}
 }
 
 .s-nav A {
-	
+
 	margin-top:10px; text-decoration:none;
 }
 .s-nav A.y:hover{
-	COLOR: #000; 
+	COLOR: #000;
 }
 .s-nav .n {
 	TEXT-ALIGN: center; LINE-HEIGHT: 14px; WIDTH: 40px; DISPLAY: block; FLOAT: left; HEIGHT: 20px; COLOR: #000000; CURSOR: pointer
@@ -275,15 +275,15 @@ h3{font-family:"黑体";font-size:13px;}
 	padding:0;
 	text-align:left;
 	height:46px;
-	width:1000px;
+	width:1200px;
 	clear:both;
 		}
-		
+
 .daohang1000 ul.ulnav{margin:0 auto;
 	padding:0;
 	text-align:left;
 	height:46px;
-	width:1000px;
+	width:1200px;
 	clear:both;
 	_overflow:hidden
 		}
@@ -360,8 +360,8 @@ h3{font-family:"黑体";font-size:13px;}
 	background-color: #FEFCFD;
 	background-repeat: repeat-x;
 }
-.xhqu{  margin:0 auto; padding:0; width:1000px; text-align: center;}
-.xiangguan{   margin:0 auto; padding:35px 0 0 0; width:1000px; text-align: center; height:115px;}
+.xhqu{  margin:0 auto; padding:0; width:1200px; text-align: center;}
+.xiangguan{   margin:0 auto; padding:35px 0 0 0; width:1200px; text-align: center; height:115px;}
 .xiangguan li{ width:215px; float:left; text-align: left; margin:0 0 0 25px; padding:0; word-spacing:nowrap; overflow:hidden}
 .xiangguan li p {height:14px; margin-top:10px; word-spacing:nowrap; overflow:hidden;width:215px; }
 
@@ -381,7 +381,7 @@ h3{font-family:"黑体";font-size:13px;}
 
 .mainbody {margin:0 auto;padding:0;text-align:left;}
 
-.mainbody1000{margin:0 auto;text-align:left;width:1000px;clear:both;}
+.mainbody1000{margin:0 auto;text-align:left;width:1200px;clear:both;}
 
 .loginWays1 {
 	Z-INDEX: 1000;

@@ -9,10 +9,10 @@
  * ============================================================================
 */
 /**************跳转到plugin作为首页***************************/
-if(!isset($_GET['mod'])){
-	include 'plugin.php';
-	exit();
-}
+// if(!isset($_GET['mod'])){
+// 	include 'plugin.php';
+// 	exit();
+// }
 
 define('INDEX',1);
 if(defined('WAP') || defined('APP')){

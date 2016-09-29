@@ -85,7 +85,7 @@ $(function(){
   <script type="text/javascript"> $(function(){$(".banner").lubo({}); }) </script>
 <!--幻灯片结束-->
 <!--网站公告-->
-  <div class="web_notice clearfix">
+  <div style="display:none" class="web_notice clearfix">
     <ul class="notice_box clearfix">
       <li><i class="icon"></i><a href="http://caiqi.com/aboutus/sitenotice/88.html" title="财气网9月下旬活动公告">财气网9月下旬活动公...</a></li><li><i class="icon"></i><a href="http://caiqi.com/aboutus/sitenotice/85.html" title="邦帮堂入驻财气网【特惠】公告">邦帮堂入驻财气网【特...</a></li><li><i class="icon"></i><a href="http://caiqi.com/aboutus/sitenotice/84.html" title="千林贷加息公告">千林贷加息公告</a></li><li><i class="icon"></i><a href="http://caiqi.com/aboutus/sitenotice/83.html" title="财气网返利加息调整公告">财气网返利加息调整公...</a></li>     <a class="notice_more" href="http://caiqi.com/aboutus/sitenotice.html">更多 <i class="icon-angle-right fz16"></i></a>
     </ul>
@@ -180,191 +180,154 @@ $("#diaoyan1").css("text-decoration","underline");
 <!--活动优惠结束-->
 
 <!--网贷专区-->
+<style>
+  .fresh_main{}
+  .fresh_main .list1_text2_div1 a{color:#333333;text-decoration:none;cursor: text;}
+  .fresh_main .list1_text2_div1{padding-left:0;}
+  .fresh_main  a.btn_a1:link, .fresh_main  a.btn_a1:visited {
+    color: #fff;
+    font-size: 12px;
+
+}
+
+
+
+</style>
   <div class="fresh mt30 clearfix">
     <div class="fresh_main">
-      <div class="fresh_top"><h3>网贷返利</h3><cite>首投加息送红包，复投加息永不停</cite><a class="activity_more" href="http://caiqi.com/day.html">更多 <i class="icon-angle-right fz16"></i></a></div>
+      <div class="fresh_top"><h3>理财返利</h3><cite>首投加息送红包，复投加息永不停</cite><a class="activity_more" href="<?=SITEURL?>/plugin.php?mod=licai&act=index#4429">更多 <i class="icon-angle-right fz16"></i></a></div>
       <div class="fresh_list clearfix">
-        <ul>
-          <li class="l2_li2 li_h list1_text2_shade">
+<ul>
+          <li class="l2_li2 li_h list1_text2_shade" style="height:365px">
             <div class="list1_text2">
               <div class="list1_text2_top">
-                <img class="list1_text2_topimg" src="template/default/inc/images/index/d117f6391470033027841.png">
+                <img class="list1_text2_topimg" src="template/default/inc/images/index/houben-logo.jpg">
               </div>
-              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">众金宝--119</a></div>
-              <div class="list1_text2_div2">
-                <div class="_left">
+                 <div class="list1_text2_div2">
+                <div class="_left" style="text-align:center">
                   <span class="list1_text2_div2_left_s1">9.9</span>%<br>
-                  <span class="list1_text2_div2_left_s2">平台年化</span>
+                  <span class="list1_text2_div2_left_s2">最高收益率</span>
                 </div>
-                <div class="_right">
+                <div class="_right" style="text-align:center">
                   <span class="list1_text2_div2_left_s1">7.0</span>%<br>
-                  <span class="list1_text2_div2_left_s2">财气加息</span>
+                  <span class="list1_text2_div2_left_s2">本站最高再返</span>
                 </div>
               </div>
-              <div class="list1_circle">
-                <div class="list1_circle_cen"></div>
-                <div class="list1_text2_cricle">
-                  <span class="list1_text2_cricle_s1">16.9</span>%<br>
-                  <span class="list1_text2_cricle_s2">综合年化</span>
-                </div>
-              </div>
-              <div class="list1_text2_div3">
-                <div class="_left">
-                  <span class="list1_text2_div3_left_s1">1000</span>元<br>
-                  <span class="list1_text2_div2_left_s2">起投金额</span>
-                </div>
-                <div class="_right">
-                    <span class="list1_text2_div3_left_s1">1</span>个月                 <br>
-                  <span class="list1_text2_div2_left_s2">投资期限</span>
-                </div>
-              </div>
-              <a class="btn_a1 btn_bg" target="_blank" href="http://caiqi.com/product/2103.html">立即投资</a>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">红杉资本Sequoia Capital投资</a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">安全、透明安心理财</a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">严格的风险控制体系</a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">新手即享15%年化收益</a></div>
+
+
+
+              <a class="btn_a1 btn_bg" target="_blank" href="http://u.duoduo123.com/index.php?g=mall&amp;m=mall&amp;a=jump&amp;siteurl=http%3A%2F%2Fwww.5chou88.cn&amp;mid=1&amp;chanpin=7&amp;mall_url=https%3A%2F%2Fwww.houbank.com%2Fmobile%2Fhouqianbao%2Fregister%3Futm_source%3DZT001">投资拿返利</a>
             </div>
-          </li><li class="l2_li2 li_h list1_text2_shade">
+          </li>
+      <li class="l2_li2 li_h list1_text2_shade" style="height:365px">
             <div class="list1_text2">
               <div class="list1_text2_top">
-                <img class="list1_text2_topimg" src="template/default/inc/images/index/46da3a451467191248276.png">
+                <img class="list1_text2_topimg" src="template/default/inc/images/index/huitou_logo.jpg">
               </div>
-              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">单季利 企业借款201605号第六十三期</a></div>
-              <div class="list1_text2_div2">
-                <div class="_left">
-                  <span class="list1_text2_div2_left_s1">10.0</span>%<br>
-                  <span class="list1_text2_div2_left_s2">平台年化</span>
-                </div>
-                <div class="_right">
-                  <span class="list1_text2_div2_left_s1">4.0</span>%<br>
-                  <span class="list1_text2_div2_left_s2">财气加息</span>
-                </div>
-              </div>
-              <div class="list1_circle">
-                <div class="list1_circle_cen"></div>
-                <div class="list1_text2_cricle">
-                  <span class="list1_text2_cricle_s1">14.0</span>%<br>
-                  <span class="list1_text2_cricle_s2">综合年化</span>
-                </div>
-              </div>
-              <div class="list1_text2_div3">
-                <div class="_left">
-                  <span class="list1_text2_div3_left_s1">1000</span>元<br>
-                  <span class="list1_text2_div2_left_s2">起投金额</span>
-                </div>
-                <div class="_right">
-                    <span class="list1_text2_div3_left_s1">3</span>个月                 <br>
-                  <span class="list1_text2_div2_left_s2">投资期限</span>
-                </div>
-              </div>
-              <a class="btn_a1 btn_bg" target="_blank" href="http://caiqi.com/product/2102.html">立即投资</a>
-            </div>
-          </li><li class="l2_li2 li_h list1_text2_shade">
-            <div class="list1_text2">
-              <div class="list1_text2_top">
-                <img class="list1_text2_topimg" src="template/default/inc/images/index/57e49aea9ffbf.png">
-              </div>
-              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">立诚1606202字号07期</a></div>
-              <div class="list1_text2_div2">
-                <div class="_left">
-                  <span class="list1_text2_div2_left_s1">11.0</span>%<br>
-                  <span class="list1_text2_div2_left_s2">平台年化</span>
-                </div>
-                <div class="_right">
-                  <span class="list1_text2_div2_left_s1">6.0</span>%<br>
-                  <span class="list1_text2_div2_left_s2">财气加息</span>
-                </div>
-              </div>
-              <div class="list1_circle">
-                <div class="list1_circle_cen"></div>
-                <div class="list1_text2_cricle">
-                  <span class="list1_text2_cricle_s1">17.0</span>%<br>
-                  <span class="list1_text2_cricle_s2">综合年化</span>
-                </div>
-              </div>
-              <div class="list1_text2_div3">
-                <div class="_left">
-                  <span class="list1_text2_div3_left_s1">1000</span>元<br>
-                  <span class="list1_text2_div2_left_s2">起投金额</span>
-                </div>
-                <div class="_right">
-                    <span class="list1_text2_div3_left_s1">3</span>个月                 <br>
-                  <span class="list1_text2_div2_left_s2">投资期限</span>
-                </div>
-              </div>
-              <a class="btn_a1 btn_bg" target="_blank" href="http://caiqi.com/product/2101.html">立即投资</a>
-            </div>
-          </li><li class="l2_li2 li_h list1_text2_shade">
-            <div class="list1_text2">
-              <div class="list1_text2_top">
-                <img class="list1_text2_topimg" src="template/default/inc/images/index/f2ac14621471510415607.png">
-              </div>
-              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">新手理财321期   </a></div>
-              <div class="list1_text2_div2">
-                <div class="_left">
-                  <span class="list1_text2_div2_left_s1">18.0</span>%<br>
-                  <span class="list1_text2_div2_left_s2">平台年化</span>
-                </div>
-                <div class="_right">
-                  <span class="list1_text2_div2_left_s1">7.0</span>%<br>
-                  <span class="list1_text2_div2_left_s2">财气加息</span>
-                </div>
-              </div>
-              <div class="list1_circle">
-                <div class="list1_circle_cen"></div>
-                <div class="list1_text2_cricle">
-                  <span class="list1_text2_cricle_s1">25.0</span>%<br>
-                  <span class="list1_text2_cricle_s2">综合年化</span>
-                </div>
-              </div>
-              <div class="list1_text2_div3">
-                <div class="_left">
-                  <span class="list1_text2_div3_left_s1">100</span>元<br>
-                  <span class="list1_text2_div2_left_s2">起投金额</span>
-                </div>
-                <div class="_right">
-                    <span class="list1_text2_div3_left_s1">5</span>天                  <br>
-                  <span class="list1_text2_div2_left_s2">投资期限</span>
-                </div>
-              </div>
-              <a class="btn_a1 btn_bg" target="_blank" href="http://caiqi.com/product/2094.html">立即投资</a>
-            </div>
-          </li><li class="l2_li2 li_h list1_text2_shade">
-            <div class="list1_text2">
-              <div class="list1_text2_top">
-                <img class="list1_text2_topimg" src="template/default/inc/images/index/790105631465874564311.png">
-              </div>
-              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">日日盈0926</a></div>
-              <div class="list1_text2_div2">
-                <div class="_left">
+                 <div class="list1_text2_div2">
+                <div class="_left" style="text-align:center">
                   <span class="list1_text2_div2_left_s1">10.8</span>%<br>
-                  <span class="list1_text2_div2_left_s2">平台年化</span>
+                  <span class="list1_text2_div2_left_s2">最高收益率</span>
                 </div>
-                <div class="_right">
-                  <span class="list1_text2_div2_left_s1">9.0</span>%<br>
-                  <span class="list1_text2_div2_left_s2">财气加息</span>
-                </div>
-              </div>
-              <div class="list1_circle">
-                <div class="list1_circle_cen"></div>
-                <div class="list1_text2_cricle">
-                  <span class="list1_text2_cricle_s1">19.8</span>%<br>
-                  <span class="list1_text2_cricle_s2">综合年化</span>
+                <div class="_right" style="text-align:center">
+                  <span class="list1_text2_div2_left_s1">3.0</span>%<br>
+                  <span class="list1_text2_div2_left_s2">本站最高再返</span>
                 </div>
               </div>
-              <div class="list1_text2_div3">
-                <div class="_left">
-                  <span class="list1_text2_div3_left_s1">1000</span>元<br>
-                  <span class="list1_text2_div2_left_s2">起投金额</span>
-                </div>
-                <div class="_right">
-                    <span class="list1_text2_div3_left_s1">1</span>个月                 <br>
-                  <span class="list1_text2_div2_left_s2">投资期限</span>
-                </div>
-              </div>
-              <a class="btn_a1 btn_bg" target="_blank" href="http://caiqi.com/product/2088.html">立即投资</a>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3"> 国资控股 </a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3"> 国有 安全 好收益 </a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">双重风控体制</a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">投资即可获得本站额外返</a></div>
+
+
+
+              <a class="btn_a1 btn_bg" target="_blank" href="http://u.duoduo123.com/index.php?g=mall&amp;m=mall&amp;a=jump&amp;siteurl=http%3A%2F%2Fwww.5chou88.cn&amp;mid=1&amp;chanpin=7&amp;mall_url=http%3A%2F%2Fwww.huitoup2p.com">投资拿返利</a>
             </div>
-          </li>       </ul>
+          </li>
+      <li class="l2_li2 li_h list1_text2_shade" style="height:365px">
+            <div class="list1_text2">
+              <div class="list1_text2_top">
+                <img class="list1_text2_topimg" src="template/default/inc/images/index/minxindai_logo.jpg">
+              </div>
+                 <div class="list1_text2_div2">
+                <div class="_left" style="text-align:center">
+                  <span class="list1_text2_div2_left_s1">15</span>%<br>
+                  <span class="list1_text2_div2_left_s2">最高收益率</span>
+                </div>
+                <div class="_right" style="text-align:center">
+                  <span class="list1_text2_div2_left_s1">3.85</span>%<br>
+                  <span class="list1_text2_div2_left_s2">本站最高再返</span>
+                </div>
+              </div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">40倍银行活期存款收益</a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">本息保障制度 安全理财</a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">活期理财9%</a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">活期理财9%</a></div>
+
+
+
+              <a class="btn_a1 btn_bg" target="_blank" href="http://u.duoduo123.com/index.php?g=mall&amp;m=mall&amp;a=jump&amp;siteurl=http%3A%2F%2Fwww.5chou88.cn&amp;mid=1&amp;chanpin=7&amp;mall_url=http%3A%2F%2Fwww.minxindai.com">投资拿返利</a>
+            </div>
+          </li>
+      <li class="l2_li2 li_h list1_text2_shade" style="height:365px">
+            <div class="list1_text2">
+              <div class="list1_text2_top">
+                <img class="list1_text2_topimg" src="template/default/inc/images/index/hl-logo.jpg">
+              </div>
+                 <div class="list1_text2_div2">
+                <div class="_left" style="text-align:center">
+                  <span class="list1_text2_div2_left_s1">20</span>%<br>
+                  <span class="list1_text2_div2_left_s2">最高收益率</span>
+                </div>
+                <div class="_right" style="text-align:center">
+                  <span class="list1_text2_div2_left_s1">1.4</span>%<br>
+                  <span class="list1_text2_div2_left_s2">本站最高再返</span>
+                </div>
+              </div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">更好的服务保障</a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">已加入《本息保障计划》</a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">实地外访，7道严格风控机制</a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">起投金额只需1元</a></div>
+
+
+
+              <a class="btn_a1 btn_bg" target="_blank" href="http://u.duoduo123.com/index.php?g=mall&amp;m=mall&amp;a=jump&amp;siteurl=http%3A%2F%2Fwww.5chou88.cn&amp;mid=1&amp;chanpin=7&amp;mall_url=http%3A%2F%2Fwww.zrcaifu.com">投资拿返利</a>
+            </div>
+          </li>
+      <li class="l2_li2 li_h list1_text2_shade" style="height:365px">
+            <div class="list1_text2">
+              <div class="list1_text2_top">
+                <img class="list1_text2_topimg" src="template/default/inc/images/index/zhongrui-logo.jpg.png">
+              </div>
+                 <div class="list1_text2_div2">
+                <div class="_left" style="text-align:center">
+                  <span class="list1_text2_div2_left_s1">20</span>%<br>
+                  <span class="list1_text2_div2_left_s2">最高收益率</span>
+                </div>
+                <div class="_right" style="text-align:center">
+                  <span class="list1_text2_div2_left_s1">1.7</span>%<br>
+                  <span class="list1_text2_div2_left_s2">本站最高再返</span>
+                </div>
+              </div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">起投金额：100元</a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">法律援助基金</a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">P2B供应链金融信息服务平台</a></div>
+              <div class="list1_text2_div1"><a href="javascript:void(0);" class="a3">100%全额本息担保+千万级风险备用金</a></div>
+
+
+
+              <a class="btn_a1 btn_bg" target="_blank" href="http://u.duoduo123.com/index.php?g=mall&amp;m=mall&amp;a=jump&amp;siteurl=http%3A%2F%2Fwww.5chou88.cn&amp;mid=1&amp;chanpin=7&amp;mall_url=http%3A%2F%2Fwww.zrcaifu.com">投资拿返利</a>
+            </div>
+          </li>
+</ul>
       </div>
     </div>
   </div>
-<!--网贷专区结束-->
+<!--专区结束-->
 
 
 

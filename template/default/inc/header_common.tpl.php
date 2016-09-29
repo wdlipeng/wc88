@@ -19,7 +19,7 @@
   </div>
 <script>
 function topHtml() {/*<div class="topleftA" style="padding-top:10px;">
-	<a href="<?=u('user')?>"><span class="c_fcolor">{$name}</span></a> 
+	<a href="<?=u('user')?>"><span class="c_fcolor">{$name}</span></a>
 	<a href="<?=u('user','msg')?>">{$msgsrc}</a>&nbsp;&nbsp;|&nbsp;&nbsp;余额：<a href="<?=u('user','mingxi')?>"><span class="c_fcolor">￥{$money}</span></a>&nbsp;&nbsp;
 	<?php if(FANLI==1){?>
 	<?=TBMONEY?>：<a href="<?=u('user','mingxi')?>"><span class="c_fcolor">{$jifenbao}</sapn></a> <?=TBMONEYUNIT?>&nbsp;&nbsp;|&nbsp;&nbsp;
@@ -43,7 +43,7 @@ function topHtml() {/*<div class="topleftA" style="padding-top:10px;">
             </ul>
           </div>
         </div>
-	
+
 		<div class"fl" style=" margin-top:10px">|&nbsp;&nbsp;&nbsp;<a href="<?=u('user','exit',array('t'=>TIME))?>">退出</a></div>*/;}
 
 $.ajax({
@@ -73,10 +73,10 @@ function showsliderlogin(){
 
 </script>
 </script>
-  <div class="topright"> 
+  <div class="topright">
     <ul>
-      <li> <a href="javascript:;" onClick="AddFavorite('<?=SITEURL?>','<?=WEBNAME?>')">收藏本站</a> </li>  
-      <li> <a href="comm/shortcut.php" target="_blank">快捷桌面 </a></li>  
+      <li> <a href="javascript:;" onClick="AddFavorite('<?=SITEURL?>','<?=WEBNAME?>')">收藏本站</a> </li>
+      <li> <a href="comm/shortcut.php" target="_blank">快捷桌面 </a></li>
       <?php if($app_status==1){?>
       <li> <a href="<?=u('app','index')?>" target="_blank" style="*line-height:15px;">手机APP </a></li>
       <?php }?>
@@ -105,14 +105,14 @@ function showsliderlogin(){
 <INPUT id=s-txt class=s-txt name='q' x-webkit-speech value='请输入商城名，关键词查询' moren="<?=$webset['search_key']['head']?>"/>
 
 <INPUT class="sbutton c_bgcolor" type=submit value="购物搜索">
-</SPAN> 
+</SPAN>
 <SPAN class=box-right></SPAN>
 </FORM>
 <p></p>
 </div>
 </div></div>
 <div class="header-fa">
-<?php 
+<?php
 if($app_status==1){
 	$phone_url='href="'.u('app','index').'" target="_blank"';
 }
@@ -128,11 +128,11 @@ else{
 <div class="c_bgcolor daohang" id="navdaohang">
   <div class="daohang1000">
     <ul class="ulnav">
-    <?php 
+    <?php
 	$nav_c=count($nav);
 	$nav_num=10; //导航个数
 	$nav_c=$nav_c>=$nav_num?$nav_num:$nav_c;
-	
+
 	$nav_cur_ok=0;
 	if($_GET['code']!=''){
 		for($i=0;$i<$nav_c;$i++){
@@ -146,7 +146,7 @@ else{
 			}
 		}
 	}
-	
+
 	for($i=0;$i<$nav_c;$i++){
 		$have_child_class='';
 		if($nav_cur_ok==0){
@@ -159,7 +159,7 @@ else{
 		else{
 			$dom_id=$nav[$i]['dom_id'];
 		}
-	    
+
 		if(!empty($nav[$i]['child'])){
 			$have_child_class=' have_child';
 			$em='<em></em>';
@@ -185,18 +185,18 @@ else{
       <?php }?>
       </li>
     <?php }?>
-      
+
     </ul></div>
 </div>
 
 <script>
 var sousuoxiala=new Array();
-sousuoxiala[0]=new Array("tao","view","淘宝相关宝贝"); 
+sousuoxiala[0]=new Array("tao","view","淘宝相关宝贝");
 <?php if(BIJIA>1){?>
 sousuoxiala[1]=new Array("mall","goods","全网比价");
 <?php }?>
 
-//sousuoxiala[3]=new Array("zhannei","index","站内精选宝贝"); 
+//sousuoxiala[3]=new Array("zhannei","index","站内精选宝贝");
 /*sousuoxiala[4]=new Array("zhidemai","index","值得买精选宝贝"); */
 
 $searchInput=$("#s-txt");
@@ -208,7 +208,7 @@ $(".have_child").hover(function() {
     $(this).find("ul").show();
 },function() {
 	if(typeof(thisId) == "undefined"){
-		thisId='';	
+		thisId='';
 	}
 	$(this).attr('id',thisId);
     $(this).find("a").eq(0).addClass("sub").removeClass("sub_on");

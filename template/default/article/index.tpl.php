@@ -25,10 +25,10 @@ include(TPLPATH.'/inc/header.tpl.php');
         </div>
     <?php }?>
     </div>
-   
+
 
 </div>
-<div class="furight">
+<div class="furight" style="float:left;margin-left: 10px;">
 <?php include TPLPATH."/article/right.tpl.php";?>
 </div>
 </div>

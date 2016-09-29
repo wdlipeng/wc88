@@ -77,11 +77,21 @@ $(function(){
 
 <div class="mainbody_new">
 <!--幻灯片-->
-  <div class="banner">
-    <ul class="banner_box">
-      <li style="opacity: 0; display: none;"><a href="http://www.caiqi.com/ad/20160923/index.html" style="background:url(template/default/inc/images/index/lubo/57e3ad638c4c8.jpg) center top no-repeat"></a></li><li style="opacity: 0; display: none;"><a href="http://caiqi.com/productByPlat/82.html" style="background:url(template/default/inc/images/index/lubo/57e1f684f23a8.jpg) center top no-repeat"></a></li><li style="opacity: 0; display: none;"><a href="http://www.caiqi.com/ad/20160822/index.html" style="background:url(template/default/inc/images/index/lubo/774826071471662610048.png) center top no-repeat"></a></li><li style="opacity: 0; display: none;"><a href="http://esf.nanjing.fang.com/zt/201609/20160909zyyb.html?utm_source=huodong1&amp;utm_medium=click&amp;utm_term=zhaochen.nj&amp;utm_content=caiqiwang&amp;utm_campaign=nanjinghezuo" style="background:url(template/default/inc/images/index/lubo/93869efa1473404727753.png) center top no-repeat"></a></li><li style="opacity: 1; display: block;"><a href="http://caiqi.com/productByPlat/70.html" style="background:url(template/default/inc/images/index/lubo/ec31239b1470900233698.png) center top no-repeat"></a></li>   </ul>
-  </div>
+<div class="banner">
+  <ul class="banner_box">
 
+    <li style="opacity: 0; display: none;">
+      <a href="<?=SITEURL?>/ad/newreg09/index.html" style="background:url(template/default/inc/images/index/lubo/57e1f684f23a8.jpg) center top no-repeat"></a>
+    </li>
+    <li style="opacity: 0; display: none;">
+      <a href="<?=SITEURL?>/ad/newreg09/index.html" style="background:url(template/default/inc/images/index/lubo/774826071471662610048.png) center top no-repeat"></a>
+    </li>
+    <li style="opacity: 0; display: none;">
+      <a href="<?=SITEURL?>/ad/newreg09/index.html" style="background:url(template/default/inc/images/index/lubo/93869efa1473404727753.png) center top no-repeat"></a>
+    </li>
+
+  </ul>
+</div>
   <script type="text/javascript"> $(function(){$(".banner").lubo({}); }) </script>
 <!--幻灯片结束-->
 <!--网站公告-->

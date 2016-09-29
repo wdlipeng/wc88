@@ -1,0 +1,69 @@
+@charset='utf-8';
+body{font-family: "Microsoft YaHei", arial;margin: 0;padding: 0;font-size: 12px;color: #000;background: #FFF;font: 14px/24px "Microsoft YaHei",tahoma;}
+div,form,img,ul,ol,li,dl,dt,dd{margin: 0;padding: 0;border: 0;}
+li{list-style: none;}
+h{vertical-align: top;}
+h1,h2,h3,h4,h5,h6,i,cite{margin: 0;padding: 0;font-weight: normal;font-style: normal;}
+a{text-decoration: none;color: #5a5a5a;}
+em{font-style: normal;}
+p{margin: 0;padding: 0px;}
+table {border-collapse: collapse; }
+*:focus{outline: none;}
+.clearfix{*zoom: 1;}
+.clearfix:after{clear: both;content: "";display: block;height: 0;visibility: hidden;}
+.fz12{font-size: 12px;}
+.fz16{font-size: 16px;}
+.fz18{font-size: 18px;}
+.fz28{font-size: 28px;}
+.fz24{font-size: 24px;}
+.fz30{font-size: 30px;}
+.fz36{font-size: 36px;}
+.fz40{font-size: 40px;}
+.fz48{font-size: 48px;}
+.ml68{margin-left: 68px;}
+.mt10{margin-top: 10px;}
+.mt18{margin-top: 18px;}
+.mt30{margin-top: 30px;}
+.fb{font-weight: bold;}
+.co1{color: #434343;}
+.co2{color: #ff0000;}
+.fl{float: left;}
+.fr{float: right;}
+/*activify*/
+.activify{}
+.fuli1{background: url(../images/fuli_01.jpg) center no-repeat ; height: 78px;}
+.fuli2{background: url(../images/fuli_02.jpg) center no-repeat ; height: 79px;}
+.fuli3{background: url(../images/fuli_03.jpg) center no-repeat ; height: 85px;}
+.fuli4{background: url(../images/fuli_04.jpg) center no-repeat ; height: 92px;}
+.fuli5{background: url(../images/fuli_05.jpg) center no-repeat ;  height: 95px;}
+.fuli6{background: url(../images/fuli_06.jpg) center no-repeat ;  height: 96px;}
+.fuli7{background: url(../images/fuli_07.jpg) center no-repeat ;  height: 86px;}
+.fuli8{background: url(../images/fuli_08.jpg) center no-repeat ;  height: 142px;}
+.fuli9{background: url(../images/fuli_09.jpg) center no-repeat ; height: 107px;}
+.fuli10{background: url(../images/fuli_10.jpg) center no-repeat ; height: 82px;}
+.fuli11{background: url(../images/fuli_11.jpg) center no-repeat ; height: 311px;}
+.fuli12{background: url(../images/fuli_12.jpg) center no-repeat ; height: 142px;}
+.fuli11_center{width: 950px;margin: 0 auto;}
+.fuli11_center p{color: #fff;}
+.fuli11_center p em{font-size: 30px;color: #fee218;}
+.p_top{font-size: 24px;line-height: 40px;margin-bottom: 30px;}
+.tag{margin-top: 50px;}
+.tagrig{font-size: 18px;margin-left: 38px;}
+.tagrig p{}
+
+.fuli13{background: url(../images/fuli_13.jpg) center no-repeat ; height: 92px;}
+.fuli14{background: url(../images/fuli_14.jpg) center no-repeat ; height: 356px;}
+.fuli15{background: url(../images/fuli_15.jpg) center no-repeat ; height: 134px;}
+.fuli16{background: url(../images/fuli_16.jpg) center no-repeat ; height: 94px;}
+.fuli17{background: url(../images/fuli_17.jpg) center no-repeat ; height: 431px;}
+.fuli18{background: url(../images/fuli_18.jpg) center no-repeat ; height: 100px;}
+
+.fuli14_center{width: 950px;margin: 0 auto;}
+.fuli14_center p{color: #fff;line-height: 40px;font-size: 20px;}
+
+.fuli17_center{width: 950px;margin: 0 auto;}
+.fuli17_center p{font-size: 24px;color: #fff;line-height: 42px;}
+
+.fuli19{background: #ffffe6;}
+.fuli19_center{}
+.fuli19_center a{display: block;width: 441px;height: 142px;margin: 0 auto;padding: 30px 0px 100px 0px;}

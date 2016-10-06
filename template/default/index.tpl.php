@@ -89,6 +89,12 @@ $(function(){
     <li style="opacity: 0; display: none;">
       <a href="<?=SITEURL?>/ad/newreg09/index.html" style="background:url(template/default/inc/images/index/lubo/93869efa1473404727753.png) center top no-repeat"></a>
     </li>
+    <li style="opacity: 0; display: none;">
+      <a href="<?=SITEURL?>/ad/newreg09/index.html" style="background:url(template/default/inc/images/index/lubo/lubo4.png) center top no-repeat"></a>
+    </li>
+    <li style="opacity: 0; display: none;">
+      <a href="<?=SITEURL?>/ad/newreg09/index.html" style="background:url(template/default/inc/images/index/lubo/lubo5.png) center top no-repeat"></a>
+    </li>
 
   </ul>
 </div>
@@ -97,7 +103,7 @@ $(function(){
 <!--网站公告-->
   <div style="display:none" class="web_notice clearfix">
     <ul class="notice_box clearfix">
-      <li><i class="icon"></i><a href="http://caiqi.com/aboutus/sitenotice/88.html" title="财气网9月下旬活动公告">财气网9月下旬活动公...</a></li><li><i class="icon"></i><a href="http://caiqi.com/aboutus/sitenotice/85.html" title="邦帮堂入驻财气网【特惠】公告">邦帮堂入驻财气网【特...</a></li><li><i class="icon"></i><a href="http://caiqi.com/aboutus/sitenotice/84.html" title="千林贷加息公告">千林贷加息公告</a></li><li><i class="icon"></i><a href="http://caiqi.com/aboutus/sitenotice/83.html" title="财气网返利加息调整公告">财气网返利加息调整公...</a></li>     <a class="notice_more" href="http://caiqi.com/aboutus/sitenotice.html">更多 <i class="icon-angle-right fz16"></i></a>
+      <li><i class="icon"></i><a href="<?=SITEURL?>" title="物筹巴巴9月下旬活动公告">物筹巴巴9月下旬活动公...</a></li><li><i class="icon"></i><a href="<?=SITEURL?>" title="邦帮堂入驻物筹巴巴【特惠】公告">邦帮堂入驻物筹巴巴【特...</a></li><li><i class="icon"></i><a href="<?=SITEURL?>" title="千林贷加息公告">千林贷加息公告</a></li><li><i class="icon"></i><a href="<?=SITEURL?>" title="物筹巴巴返利加息调整公告">物筹巴巴返利加息调整公...</a></li>     <a class="notice_more" href="<?=SITEURL?>">更多 <i class="icon-angle-right fz16"></i></a>
     </ul>
   </div>
 <!--网站公告结束-->
@@ -176,11 +182,11 @@ $("#diaoyan1").css("text-decoration","underline");
             <li style="width:242px;"><span class="text_tag">20.00<i>%</i></span><span class="fanli_type3">综合年化</span></li>
           </ul>
         </div>
-        <div class="fanli_btn"><i class="icon clock"></i>开抢时间：2016-09-26 00:00:00 <a href="http://caiqi.com/Home/SuperRebate/SuperDetil/sr_id/2099.html">立即投资</a></div>
+        <div class="fanli_btn"><i class="icon clock"></i>开抢时间：2016-09-26 00:00:00 <a href="<?=SITEURL?>">立即投资</a></div>
       </div>
     </div>
     <div class="activity_rig">
-      <div class="top_title"><h3>活动专区</h3><a class="activity_more" href="http://caiqi.com/activecenter.html">更多 <i class="icon-angle-right fz16"></i></a></div>
+      <div class="top_title"><h3>活动专区</h3><a class="activity_more" href="<?=SITEURL?>">更多 <i class="icon-angle-right fz16"></i></a></div>
       <div class="activity_rig_nr">
         <a href="#"><img src="template/default/inc/images/index/activity1.png"></a>
         <a href="#"><img src="template/default/inc/images/index/activity2.png"></a>
@@ -196,13 +202,9 @@ $("#diaoyan1").css("text-decoration","underline");
   .fresh_main .list1_text2_div1{padding-left:0;}
   .fresh_main  a.btn_a1:link, .fresh_main  a.btn_a1:visited {
     color: #fff;
-    font-size: 12px;
-
-}
-
-
-
+    font-size: 12px;}
 </style>
+
   <div class="fresh mt30 clearfix">
     <div class="fresh_main">
       <div class="fresh_top"><h3>理财返利</h3><cite>首投加息送红包，复投加息永不停</cite><a class="activity_more" href="<?=SITEURL?>/plugin.php?mod=licai&act=index#4429">更多 <i class="icon-angle-right fz16"></i></a></div>
@@ -308,7 +310,7 @@ $("#diaoyan1").css("text-decoration","underline");
               <a class="btn_a1 btn_bg" target="_blank" href="http://u.duoduo123.com/index.php?g=mall&amp;m=mall&amp;a=jump&amp;siteurl=http%3A%2F%2Fwww.5chou88.cn&amp;mid=1&amp;chanpin=7&amp;mall_url=http%3A%2F%2Fwww.zrcaifu.com">投资拿返利</a>
             </div>
           </li>
-      <li class="l2_li2 li_h list1_text2_shade" style="height:365px">
+      <li class="l2_li2 li_h list1_text2_shade" style="height:365px;">
             <div class="list1_text2">
               <div class="list1_text2_top">
                 <img class="list1_text2_topimg" src="template/default/inc/images/index/zhongrui-logo.jpg.png">
@@ -347,62 +349,22 @@ $("#diaoyan1").css("text-decoration","underline");
       <div class="news_left">
         <div class="news_nr">
           <div class="hd">
-          <h3><a href="http://caiqi.com/news.html">理财学院</a></h3>
-              <ul>
-                <li class=""><a href="http://caiqi.com/news/p2p.html">P2P</a></li><li class="on"><a href="http://caiqi.com/news/licai.html">理财</a></li><li><a href="http://caiqi.com/news/jinrong.html">金融</a></li><li><a href="http://caiqi.com/news/shehui.html">社会</a></li>              </ul>
+          <h3>行业动态</h3>
+
             </div>
             <div class="bd">
-              <div class="news_short clearfix" style="display: none;">
-                  <div class="short_left">
-                    <span class="short_img"><img src="template/default/inc/images/index/57e8d06e7d2d1.jpg"></span>
-                          <span class="short_tip"><a href="http://caiqi.com/news/80.html">揭秘网贷返利平台“笼络人心”两...</a></span>
-                          <span class="short_nr">互联网金融近两年的发展大家有目共睹，人们对互联网金融的态度也在随着时间的推移不断发生变化。P2P网贷...<a href="http://caiqi.com/news/80.html">【全文】</a></span>                 </div>
-                  <div class="short_rig">
-                    <div class="short_title clearfix">
-                      <h3><a href="http://caiqi.com/news/81.html">返利平台 成P2P提升形象的重要渠道</a></h3>
-                                                          <a href="http://caiqi.com/news/78.html" class="short_list">理财返利平台 让P2P发...</a>                              <a href="http://caiqi.com/news/60.html" class="short_list">金融返利平台 成P2P理...</a>                    </div>
-                    <div class="box_list">
-                                              <li><i></i><a href="http://caiqi.com/news/79.html">P2P理财需安全监督和利益提供并行</a></li>                       <li><i></i><a href="http://caiqi.com/news/77.html">P2P平台的“孤独”虽败犹荣</a></li>                        <li><i></i><a href="http://caiqi.com/news/75.html">金融返利平台 加速P2P网贷界“秋分”</a></li><li class="mt10"><i></i><a href="http://caiqi.com/news/59.html">净化网贷理财环境 P2P返利平台“一马当先”</a></li>
-                                                <li><i></i><a href="http://caiqi.com/news/58.html">财气网开启返利新高度 月入万元不是梦</a></li>                        <li><i></i><a href="http://caiqi.com/news/57.html">P2P前景明朗 金融返利深入人心</a></li>                    </div>
-                  </div>
-                </div><div class="news_short clearfix" style="display: block;">
+              <div class="news_short clearfix" style="">
                   <div class="short_left">
                     <span class="short_img"><img src="template/default/inc/images/index/57e24bca7a2ae.jpg"></span>
-                          <span class="short_tip"><a href="http://caiqi.com/news/67.html">专家支招返利攻略  来财气网实...</a></span>
-                          <span class="short_nr">随着国民经济的快速发展，投资理财已经变得司空见惯。对于广大的投资者来说，如何在安全的基础上获得更高的...<a href="http://caiqi.com/news/67.html">【全文】</a></span>                 </div>
+                          <span class="short_tip"><a href="<?=SITEURL?>">专家支招返利攻略  来物筹巴巴实...</a></span>
+                          <span class="short_nr">随着国民经济的快速发展，投资理财已经变得司空见惯。对于广大的投资者来说，如何在安全的基础上获得更高的...<a href="<?=SITEURL?>">【全文】</a></span>                 </div>
                   <div class="short_rig">
                     <div class="short_title clearfix">
-                      <h3><a href="http://caiqi.com/news/66.html">理财首选财气网   P2P返利时时享...</a></h3>
-                                                          <a href="http://caiqi.com/news/40.html" class="short_list">网贷返利 促进P2P环境...</a>                              <a href="http://caiqi.com/news/39.html" class="short_list">财气网：网贷返利 高收益...</a>                    </div>
+                      <h3><a href="<?=SITEURL?>">理财首选物筹巴巴   P2P返利时时享...</a></h3>
+                                                          <a href="<?=SITEURL?>" class="short_list">网贷返利 促进P2P环境...</a>                              <a href="<?=SITEURL?>" class="short_list">物筹巴巴：网贷返利 高收益...</a>                    </div>
                     <div class="box_list">
-                                              <li><i></i><a href="http://caiqi.com/news/65.html">财气网：让网贷返利走进大众视野</a></li>                       <li><i></i><a href="http://caiqi.com/news/62.html">P2P理财决策不再“拔剑四顾心茫然”</a></li>                        <li><i></i><a href="http://caiqi.com/news/47.html">分散投资降低理财风险</a></li><li class="mt10"><i></i><a href="http://caiqi.com/news/44.html">投资搭搭配 收益翻翻倍</a></li>
-                                                <li><i></i><a href="http://caiqi.com/news/41.html">互金整治平台骤减 网贷返利成收益保障</a></li>                        <li><i></i><a href="http://caiqi.com/news/38.html">金融返利 帮助P2P行业建立“标准”</a></li>                    </div>
-                  </div>
-                </div><div class="news_short clearfix" style="display: none;">
-                  <div class="short_left">
-                    <span class="short_img"><img src="template/default/inc/images/index/57e2544a5ec4c.jpg"></span>
-                          <span class="short_tip"><a href="http://caiqi.com/news/71.html">P2P金融规范发展 财气网引领...</a></span>
-                          <span class="short_nr">财气网自上线以来，一直稳定运营至今，并凭借其稳健、高收益、零逾期的特点在投资者中间赢得了良好的口碑。...<a href="http://caiqi.com/news/71.html">【全文】</a></span>                 </div>
-                  <div class="short_rig">
-                    <div class="short_title clearfix">
-                      <h3><a href="http://caiqi.com/news/69.html">财气网P2P返利模式火爆第17界国际...</a></h3>
-                                                          <a href="http://caiqi.com/news/68.html" class="short_list">p2p返利将是未来互联网...</a>                              <a href="http://caiqi.com/news/52.html" class="short_list">创网贷返利“大咖”时代</a>                    </div>
-                    <div class="box_list">
-                                              <li><i></i><a href="http://caiqi.com/news/72.html">谁是最受投资者信任的金融返利平台？</a></li>                       <li><i></i><a href="http://caiqi.com/news/70.html">财气网开启互金“三足鼎立”共赢时代</a></li>                       <li><i></i><a href="http://caiqi.com/news/63.html">P2P低开稳走 依托网贷返利平台更具竞争优势</a></li><li class="mt10"><i></i><a href="http://caiqi.com/news/50.html">互联网金融P2P理财价值尤为凸现</a></li>
-                                                <li><i></i><a href="http://caiqi.com/news/43.html">金融返利 让P2P理财“天堑变通途”</a></li>                        <li><i></i><a href="http://caiqi.com/news/42.html">金融返利 成优质P2P平台转型突破口</a></li>                    </div>
-                  </div>
-                </div><div class="news_short clearfix" style="display: none;">
-                  <div class="short_left">
-                    <span class="short_img"><img src="template/default/inc/images/index/57e1fb796fb9e.jpg"></span>
-                          <span class="short_tip"><a href="http://caiqi.com/news/61.html">“坐享其成”不再是白日做梦 财...</a></span>
-                          <span class="short_nr">蔡康永曾说过一段话：15岁觉得游泳难，于是你放弃学游泳，18岁你喜欢的人约你去游泳，你只能说，我不会...<a href="http://caiqi.com/news/61.html">【全文】</a></span>                 </div>
-                  <div class="short_rig">
-                    <div class="short_title clearfix">
-                      <h3><a href="http://caiqi.com/news/74.html">网贷返利 投资者收益最大化的保障</a></h3>
-                                                          <a href="http://caiqi.com/news/73.html" class="short_list">财气网投资者亲述：遇见网...</a>                              <a href="http://caiqi.com/news/64.html" class="short_list">网贷返利新风尚 由谁引领...</a>                    </div>
-                    <div class="box_list">
-                                              <li><i></i><a href="http://caiqi.com/news/76.html">网贷监管细则能否终结行业“野蛮生长”？</a></li>                       <li><i></i><a href="http://caiqi.com/news/53.html">物价飞涨加收益暴跌 P2P返利再“暴热”</a></li>                        <li><i></i><a href="http://caiqi.com/news/51.html">财气网教你“5•20”一招制胜！</a></li><li class="mt10"><i></i><a href="http://caiqi.com/news/49.html">选择财气网 给幸福一次加码的机会！</a></li>
-                                                <li><i></i><a href="http://caiqi.com/news/46.html">工薪阶层如何改变现状自我增值</a></li>                        <li><i></i><a href="http://caiqi.com/news/45.html">楼市低迷不赚钱？ 财气网携p2p掀返利狂潮</a></li>                   </div>
+                                              <li><i></i><a href="<?=SITEURL?>">物筹巴巴：让网贷返利走进大众视野</a></li>                       <li><i></i><a href="<?=SITEURL?>">P2P理财决策不再“拔剑四顾心茫然”</a></li>                        <li><i></i><a href="<?=SITEURL?>">分散投资降低理财风险</a></li><li class="mt10"><i></i><a href="<?=SITEURL?>">投资搭搭配 收益翻翻倍</a></li>
+                                                <li><i></i><a href="<?=SITEURL?>">互金整治平台骤减 网贷返利成收益保障</a></li>                        <li><i></i><a href="<?=SITEURL?>">金融返利 帮助P2P行业建立“标准”</a></li>                    </div>
                   </div>
                 </div>            </div>
         </div>
@@ -411,16 +373,16 @@ $("#diaoyan1").css("text-decoration","underline");
       </div>
 
       <div class="news_rig">
-        <div class="news_rig_title"><h3>媒体报道</h3><a class="media_more" href="http://caiqi.com/mediaList.html">更多 <i class="icon-angle-right fz16"></i></a></div>
+        <div class="news_rig_title"><h3>媒体报道</h3><a class="media_more" href="<?=SITEURL?>">更多 <i class="icon-angle-right fz16"></i></a></div>
         <div class="news_rigNr clearfix">
           <ul>
             <li class="clearfix">
               <span class="media_img"><img src="template/default/inc/images/index/57e20461d305b.jpg"></span>
-              <span class="media_info"><a href="http://caiqi.com/media/194.html">财气网：理财返利 引领P...</a><p>财气网作为中国领先的互联网金融理财返利平台，稳健的风控和专业...</p></span></li><li class="clearfix">
+              <span class="media_info"><a href="<?=SITEURL?>">物筹巴巴：理财返利 引领P...</a><p>物筹巴巴作为中国领先的互联网金融理财返利平台，稳健的风控和专业...</p></span></li><li class="clearfix">
               <span class="media_img"><img src="template/default/inc/images/index/57e20649274b8.jpg"></span>
-              <span class="media_info"><a href="http://caiqi.com/media/193.html">财气网：网贷返利先驱 助...</a><p>金融行业素来对其参与者具有一定的要求和门槛，特别是金融理财方...</p></span></li><li class="clearfix">
+              <span class="media_info"><a href="<?=SITEURL?>">物筹巴巴：网贷返利先驱 助...</a><p>金融行业素来对其参与者具有一定的要求和门槛，特别是金融理财方...</p></span></li><li class="clearfix">
               <span class="media_img"><img src="template/default/inc/images/index/57e207201e641.jpg"></span>
-              <span class="media_info"><a href="http://caiqi.com/media/192.html">财气网：P2P返利平台 ...</a><p>随着互联网金融的不断发展，P2P网贷平台成为越来多人的首选理...</p></span></li>          </ul>
+              <span class="media_info"><a href="<?=SITEURL?>">物筹巴巴：P2P返利平台 ...</a><p>随着互联网金融的不断发展，P2P网贷平台成为越来多人的首选理...</p></span></li>          </ul>
         </div>
       </div>
     </div>
@@ -478,7 +440,7 @@ $("#diaoyan1").css("text-decoration","underline");
     <div class="friendLink_main clearfix">
       <ul>
         <li class="links_first">友情链接：</li>
-        <li><a href="http://www.caiqi.com/" title="财气网" target="_blank">财气网</a></li><li><a href="http://www.licaizhijia.com/" title="理财之家" target="_blank">理财之家</a></li><li><a href="http://www.jijinzhijia.com/" title="基金之家" target="_blank">基金之家</a></li><li><a href="http://www.wangdaidp.com/" title="网贷点评网" target="_blank">网贷点评网</a></li><li><a href="http://www.caiqi.com/" title="理财返利平台" target="_blank">理财返利平台</a></li><li><a href="http://www.caiqi.com/" title="理财返利" target="_blank">理财返利</a></li><li><a href="http://www.caiqi.com/" title="网贷返利" target="_blank">网贷返利</a></li><li><a href="http://www.wangjinkeji.com/" title="网金科技" target="_blank">网金科技</a></li><li><a href="http://www.xiangjins.com/" title="襄金所" target="_blank">襄金所</a></li>      </ul>
+        <li><a href="http://www.caiqi.com/" title="物筹巴巴" target="_blank">物筹巴巴</a></li><li><a href="http://www.licaizhijia.com/" title="理财之家" target="_blank">理财之家</a></li><li><a href="http://www.jijinzhijia.com/" title="基金之家" target="_blank">基金之家</a></li><li><a href="http://www.wangdaidp.com/" title="网贷点评网" target="_blank">网贷点评网</a></li><li><a href="http://www.caiqi.com/" title="理财返利平台" target="_blank">理财返利平台</a></li><li><a href="http://www.caiqi.com/" title="理财返利" target="_blank">理财返利</a></li><li><a href="http://www.caiqi.com/" title="网贷返利" target="_blank">网贷返利</a></li><li><a href="http://www.wangjinkeji.com/" title="网金科技" target="_blank">网金科技</a></li><li><a href="http://www.xiangjins.com/" title="襄金所" target="_blank">襄金所</a></li>      </ul>
     </div>
   </div>
 <!--友情链接结束-->

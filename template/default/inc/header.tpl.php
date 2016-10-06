@@ -2,9 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
-<meta name="author" content="duoduo_v8.3(<?=BANBEN?>)" />
-<?php 
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+<?php
 foreach($apps as $row){
 	if($row['open']==1 && $webset[$row['code'].'_meta']!=''){echo $webset[$row['code'].'_meta']."\r\n";}
 }
